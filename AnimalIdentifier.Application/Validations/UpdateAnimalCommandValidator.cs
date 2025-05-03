@@ -7,7 +7,12 @@ public class UpdateAnimalCommandValidator : AbstractValidator<UpdateAnimalComman
 {
     public UpdateAnimalCommandValidator()
     {
-        RuleFor(x => x.Id).NotEmpty();
-        RuleFor(x => x.Name).NotEmpty().MinimumLength(3);
+        RuleFor(x => x.Id).NotEmpty()
+            .WithMessage("Animal id is required.");
+
+        RuleFor(x => x.Name)
+           .NotEmpty().WithMessage("Animal name is required.")
+           .MinimumLength(2).WithMessage("Animal name must be at least 2 characters long.");
+
     }
 }

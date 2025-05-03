@@ -9,6 +9,6 @@ public class CreateAnimalCommandValidator : AbstractValidator<CreateAnimalComman
     {
         RuleFor(x => x.Name)
             .NotEmpty().WithMessage("Animal name is required.")
-            .MinimumLength(3).WithMessage("Animal name must be at least 3 characters long.");
+            .MinimumLength(2).WithMessage("Animal name must be at least 2 characters long.");
     }
 }

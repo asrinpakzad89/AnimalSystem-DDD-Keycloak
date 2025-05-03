@@ -412,3 +412,4 @@ C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalId
 C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.WebUI\obj\Debug\net8.0\AnimalIdentifier.WebUI.pdb
 C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.WebUI\obj\Debug\net8.0\AnimalIdentifier.WebUI.genruntimeconfig.cache
 C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.WebUI\obj\Debug\net8.0\ref\AnimalIdentifier.WebUI.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.WebUI\obj\Debug\net8.0\AnimalIdentifier.WebUI.sourcelink.json

@@ -27,7 +27,7 @@ public class HomeController : Controller
         {
             return Challenge(new AuthenticationProperties
             {
-                RedirectUri = Url.Action("Index", "Home") // بعد از لاگین بیاد همین‌جا
+                RedirectUri = Url.Action("Index", "Home") 
             }, OpenIdConnectDefaults.AuthenticationScheme);
         }
         using var httpClient = await GetHttpClientAsync();
@@ -35,8 +35,11 @@ public class HomeController : Controller
 
         if (!response.IsSuccessStatusCode)
         {
-            return View();
-            //return View("Error"); // یا پیام مناسب نمایش بده
+            return new SignOutResult(
+            new[] {
+                OpenIdConnectDefaults.AuthenticationScheme,
+                CookieAuthenticationDefaults.AuthenticationScheme
+            });
         }
 
         var json = await response.Content.ReadAsStringAsync();
@@ -134,7 +137,7 @@ public class HomeController : Controller
         var httpClient = new HttpClient(handler);
         httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
 
-        string refreshToken = await HttpContext.GetTokenAsync("refresh_token");
+        //string refreshToken = await HttpContext.GetTokenAsync("refresh_token");
         return httpClient;
     }
 }

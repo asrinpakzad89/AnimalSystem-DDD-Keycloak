@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AnimalIdentifier.WebUI.props" />
+</Project>

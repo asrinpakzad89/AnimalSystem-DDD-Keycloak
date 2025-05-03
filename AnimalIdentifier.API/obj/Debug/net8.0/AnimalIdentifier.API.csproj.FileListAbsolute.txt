@@ -1,0 +1,405 @@
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\appsettings.json
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.API.staticwebassets.endpoints.json
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.API.exe
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.API.deps.json
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.API.runtimeconfig.json
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.API.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.API.pdb
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Humanizer.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\MediatR.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Npgsql.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.Application.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.Domain.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.Infrastructure.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.Application.pdb
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.Infrastructure.pdb
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.Domain.pdb
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.csproj.AssemblyReference.cache
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.AssemblyInfoInputs.cache
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.AssemblyInfo.cs
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.csproj.CoreCompileInputs.cache
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\scopedcss\bundle\AnimalIdentifier.API.styles.css
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets\msbuild.AnimalIdentifier.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets\msbuild.AnimalIdentifier.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets\msbuild.build.AnimalIdentifier.API.props
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AnimalIdentifier.API.props
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AnimalIdentifier.API.props
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalId.474DBD61.Up2Date
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\refint\AnimalIdentifier.API.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.pdb
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.genruntimeconfig.cache
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\ref\AnimalIdentifier.API.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\appsettings.Development.json
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\appsettings.json
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.API.staticwebassets.endpoints.json
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.API.exe
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.API.deps.json
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.API.runtimeconfig.json
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.API.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.API.pdb
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AutoMapper.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\FluentValidation.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Humanizer.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\MediatR.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\MediatR.Contracts.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Npgsql.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\System.CodeDom.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\System.Composition.Convention.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\System.Composition.Hosting.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\System.Composition.Runtime.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.Application.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.Domain.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.Infrastructure.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.Application.pdb
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.Infrastructure.pdb
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.Domain.pdb
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.csproj.AssemblyReference.cache
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.GeneratedMSBuildEditorConfig.editorconfig
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.AssemblyInfoInputs.cache
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.AssemblyInfo.cs
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.csproj.CoreCompileInputs.cache
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.MvcApplicationPartsAssemblyInfo.cs
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.MvcApplicationPartsAssemblyInfo.cache
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\scopedcss\bundle\AnimalIdentifier.API.styles.css
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets.build.json
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets.development.json
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets\msbuild.AnimalIdentifier.API.Microsoft.AspNetCore.StaticWebAssets.props
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets\msbuild.AnimalIdentifier.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets\msbuild.build.AnimalIdentifier.API.props
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AnimalIdentifier.API.props
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AnimalIdentifier.API.props
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets.pack.json
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalId.474DBD61.Up2Date
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\refint\AnimalIdentifier.API.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.pdb
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.genruntimeconfig.cache
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\ref\AnimalIdentifier.API.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\appsettings.json
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.API.staticwebassets.endpoints.json
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.API.exe
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.API.deps.json
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.API.runtimeconfig.json
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.API.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.API.pdb
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Humanizer.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\MediatR.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Npgsql.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.Application.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.Domain.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.Infrastructure.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.Application.pdb
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.Infrastructure.pdb
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\bin\Debug\net8.0\AnimalIdentifier.Domain.pdb
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.csproj.AssemblyReference.cache
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.AssemblyInfoInputs.cache
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.AssemblyInfo.cs
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.csproj.CoreCompileInputs.cache
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\scopedcss\bundle\AnimalIdentifier.API.styles.css
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets\msbuild.AnimalIdentifier.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets\msbuild.AnimalIdentifier.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets\msbuild.build.AnimalIdentifier.API.props
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AnimalIdentifier.API.props
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AnimalIdentifier.API.props
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalId.474DBD61.Up2Date
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\refint\AnimalIdentifier.API.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.pdb
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.genruntimeconfig.cache
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\ref\AnimalIdentifier.API.dll

@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "AnimalIdentifier.API\\AnimalIdentifier.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "AnimalIdentifier.WebUI\\AnimalIdentifier.WebUI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

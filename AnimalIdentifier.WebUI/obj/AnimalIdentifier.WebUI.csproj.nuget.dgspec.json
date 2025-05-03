@@ -1,0 +1,348 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.WebUI\\AnimalIdentifier.WebUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Application\\AnimalIdentifier.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Application\\AnimalIdentifier.Application.csproj",
+        "projectName": "AnimalIdentifier.Application",
+        "projectPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Application\\AnimalIdentifier.Application.csproj",
+        "packagesPath": "C:\\Users\\Zagros\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Zagros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Domain\\AnimalIdentifier.Domain.csproj": {
+                "projectPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Domain\\AnimalIdentifier.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Domain\\AnimalIdentifier.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Domain\\AnimalIdentifier.Domain.csproj",
+        "projectName": "AnimalIdentifier.Domain",
+        "projectPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Domain\\AnimalIdentifier.Domain.csproj",
+        "packagesPath": "C:\\Users\\Zagros\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Zagros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Infrastructure\\AnimalIdentifier.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Infrastructure\\AnimalIdentifier.Infrastructure.csproj",
+        "projectName": "AnimalIdentifier.Infrastructure",
+        "projectPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Infrastructure\\AnimalIdentifier.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Zagros\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Zagros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Domain\\AnimalIdentifier.Domain.csproj": {
+                "projectPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Domain\\AnimalIdentifier.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.WebUI\\AnimalIdentifier.WebUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.WebUI\\AnimalIdentifier.WebUI.csproj",
+        "projectName": "AnimalIdentifier.WebUI",
+        "projectPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.WebUI\\AnimalIdentifier.WebUI.csproj",
+        "packagesPath": "C:\\Users\\Zagros\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.WebUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Zagros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Application\\AnimalIdentifier.Application.csproj": {
+                "projectPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Application\\AnimalIdentifier.Application.csproj"
+              },
+              "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Infrastructure\\AnimalIdentifier.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Infrastructure\\AnimalIdentifier.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

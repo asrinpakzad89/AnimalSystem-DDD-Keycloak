@@ -1,0 +1,96 @@
+[
+  {
+    "ContainingType": "AnimalIdentifier.API.Controllers.AnimalsController",
+    "Method": "Create",
+    "RelativePath": "api/Animals/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "AnimalIdentifier.Application.Commands.CreateAnimalCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AnimalIdentifier.API.Controllers.AnimalsController",
+    "Method": "Delete",
+    "RelativePath": "api/Animals/Delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "AnimalIdentifier.Application.Commands.DeleteAnimalCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AnimalIdentifier.API.Controllers.AnimalsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Animals/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[AnimalIdentifier.Application.Animals.ViewModels.AnimalDto, AnimalIdentifier.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AnimalIdentifier.API.Controllers.AnimalsController",
+    "Method": "GetById",
+    "RelativePath": "api/Animals/GetById",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "AnimalIdentifier.Application.Queries.GetAnimalByIdQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AnimalIdentifier.Application.Animals.ViewModels.AnimalDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AnimalIdentifier.API.Controllers.AnimalsController",
+    "Method": "Update",
+    "RelativePath": "api/Animals/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "AnimalIdentifier.Application.Commands.UpdateAnimalCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

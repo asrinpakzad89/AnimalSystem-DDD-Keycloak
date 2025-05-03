@@ -1,0 +1,36 @@
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\bin\Debug\net8.0\AnimalIdentifier.Domain.deps.json
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\bin\Debug\net8.0\AnimalIdentifier.Domain.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\bin\Debug\net8.0\AnimalIdentifier.Domain.pdb
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.csproj.AssemblyReference.cache
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.AssemblyInfoInputs.cache
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.AssemblyInfo.cs
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\refint\AnimalIdentifier.Domain.dll
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.pdb
+C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\ref\AnimalIdentifier.Domain.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\bin\Debug\net8.0\AnimalIdentifier.Domain.deps.json
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\bin\Debug\net8.0\AnimalIdentifier.Domain.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\bin\Debug\net8.0\AnimalIdentifier.Domain.pdb
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.csproj.AssemblyReference.cache
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.AssemblyInfoInputs.cache
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.AssemblyInfo.cs
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.csproj.CoreCompileInputs.cache
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\refint\AnimalIdentifier.Domain.dll
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.pdb
+F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\ref\AnimalIdentifier.Domain.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\bin\Debug\net8.0\AnimalIdentifier.Domain.deps.json
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\bin\Debug\net8.0\AnimalIdentifier.Domain.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\bin\Debug\net8.0\AnimalIdentifier.Domain.pdb
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.csproj.AssemblyReference.cache
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.AssemblyInfoInputs.cache
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.AssemblyInfo.cs
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\refint\AnimalIdentifier.Domain.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.pdb
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\ref\AnimalIdentifier.Domain.dll

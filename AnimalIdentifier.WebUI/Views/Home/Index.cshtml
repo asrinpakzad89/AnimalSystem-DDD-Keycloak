@@ -29,7 +29,7 @@
                                             <thead>
                                                 <tr role="row">
                                                     <th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="نام: activate to sort column descending" style="width: 222px;">نام</th>
-                                                    <th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="نام: activate to sort column descending" >عملیات</th>
+                                                    <th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="نام: activate to sort column descending">عملیات</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -41,7 +41,7 @@
                                                         <tr role="row" class="odd">
                                                             <td class="sorting_1">@item.Name</td>
                                                             <td>
-                                                                <button class="btn btn-info" onclick="ShowModalEditAnimal('@item.Id' , '@item.Name')">ویرایش</button>
+                                                                <button class="btn btn-info text-light" onclick="ShowModalEditAnimal('@item.Id' , '@item.Name')">ویرایش</button>
                                                                 <button class="btn btn-danger" onclick="DeleteAnimal('@item.Id')">حذف</button>
                                                             </td>
                                                         </tr>
@@ -64,8 +64,8 @@
     <script src="~/Sweetalert2/sweetalert2.min.js"></script>
     <script>
 
-            function DeleteAnimal(AnimalId) {
-                  
+       /* Delete Animal */
+        function DeleteAnimal(AnimalId) {
                 swal.fire({
                     title: 'حذف',
                     text: "کاربر گرامی از عملیات حذف مطمئن هستید؟",
@@ -92,7 +92,7 @@
                          success: function (data) {
                              if (data.isSuccess == true) {
                                  swal.fire(
-                                     'موفق!',
+                                     '!موفق',
                                      data.message,
                                      'success'
                                  ).then(function (isConfirm) {
@@ -101,7 +101,7 @@
                              }
                              else {
                                 swal.fire(
-                                    'هشدار!',
+                                   '!هشدار',
                                     data.message,
                                     'warning'
                                 );
@@ -109,7 +109,7 @@
                           },
                           error: function (request, status, error) {
                               swal.fire(
-                                     'خطا!',
+                                     '!خطا',
                                        request.responseText,
                                      'warning'
                                );
@@ -120,6 +120,7 @@
                 });
              }
 
+       /* Edit Animal */
         function EditAnimal() {
 
                  var animalId = $("#Edit_AnimalId").val();
@@ -129,7 +130,14 @@
                      id : animalId,
                      name : name
                  };
-
+                 if(name == ""){
+                        swal.fire(
+                                    '!هشدار',
+                                    '.لطفا نام حیوان را وارد نمایید',
+                                    'warning'
+                                );
+                        return;
+                  }
                 $.ajax({
                     contentType: 'application/json',
                     dataType: 'json',
@@ -139,7 +147,7 @@
                     success: function (data) {
                         if (data.isSuccess == true) {
                             swal.fire(
-                                'موفق!',
+                                '!موفق',
                                 data.message,
                                 'success'
                             ).then(function (isConfirm) {
@@ -148,7 +156,7 @@
                         }
                         else {
                             swal.fire(
-                                'هشدار!',
+                               '!هشدار',
                                 data.message,
                                 'warning'
                             );
@@ -156,7 +164,7 @@
                     },
                     error: function (request, status, error) {
                          swal.fire(
-                                'خطا!',
+                                '!خطا',
                                   request.responseText,
                                 'warning'
                             );
@@ -173,6 +181,7 @@
                 $('#EditAnimal').modal('show');
         }
 
+       /* Create Animal */
         function CreateAnimal() {
 
                  var name = $("#Create_Name").val();
@@ -180,7 +189,14 @@
                  const postData = {
                      name : name
                   };
-
+                  if(name == ""){
+                        swal.fire(
+                             '!هشدار',
+                            '.لطفا نام حیوان را وارد نمایید',
+                            'warning'
+                        );
+                        return;
+                  }
                   $.ajax({
                       contentType: 'application/json',
                       dataType: 'json',
@@ -190,7 +206,7 @@
                       success: function (data) {
                           if (data.isSuccess == true) {
                               swal.fire(
-                                  'موفق!',
+                                  '!موفق',
                                   data.message,
                                   'success'
                               ).then(function (isConfirm) {
@@ -199,7 +215,7 @@
                           }
                           else {
                               swal.fire(
-                                  'هشدار!',
+                                  '!هشدار',
                                   data.message,
                                   'warning'
                               );
@@ -207,7 +223,7 @@
                       },
                       error: function (request, status, error) {
                            swal.fire(
-                                  'خطا!',
+                                  '!خطا',
                                     request.responseText,
                                   'warning'
                               );
@@ -221,15 +237,22 @@
                 $('#CreateAnimal').modal('show');
         }
 
+       /* Search Animal */
         async function ShowModalDisplayAnimal() {
             var animalId = $("#txtAnimalId").val();
-
+            if(animalId == ""){
+                swal.fire(
+                            '!هشدار',
+                            '.لطفا شناسه حیوان را وارد نمایید',
+                            'warning'
+                        );
+                return;
+             }
             const postData = {
                 id: animalId
             };
 
             try {
-                // ارسال درخواست به سرور با استفاده از fetch
                 const response = await fetch("/Home/GetById", {
                     method: "POST",
                     headers: {
@@ -240,7 +263,7 @@
 
                 // بررسی وضعیت پاسخ
                 if (!response.ok) {
-                    throw new Error("خطا در ارتباط با سرور");
+                    throw new Error(".خطا در ارتباط با سرور");
                 }
 
                 // تبدیل پاسخ به JSON
@@ -255,7 +278,7 @@
                     });
                 } else {
                     swal.fire(
-                        'هشدار!',
+                        '!هشدار',
                         data.message,
                         'warning'
                     );
@@ -263,7 +286,7 @@
             } catch (error) {
                 // مدیریت خطا
                 swal.fire(
-                    'خطا!',
+                    '!خطا',
                     error.message,
                     'warning'
                 );

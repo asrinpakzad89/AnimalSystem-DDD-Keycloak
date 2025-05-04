@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4299797-4741-4679-ADBC-854927326EB7}|AnimalIdentifier.API\\AnimalIdentifier.API.csproj|c:\\users\\zagros\\desktop\\final project\\animalidentifier\\animalidentifier\\animalidentifier.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E4299797-4741-4679-ADBC-854927326EB7}|AnimalIdentifier.API\\AnimalIdentifier.API.csproj|solutionrelative:animalidentifier.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4299797-4741-4679-ADBC-854927326EB7}|AnimalIdentifier.API\\AnimalIdentifier.API.csproj|c:\\users\\zagros\\desktop\\final project\\animalidentifier\\animalidentifier\\animalidentifier.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4299797-4741-4679-ADBC-854927326EB7}|AnimalIdentifier.API\\AnimalIdentifier.API.csproj|solutionrelative:animalidentifier.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4299797-4741-4679-ADBC-854927326EB7}|AnimalIdentifier.API\\AnimalIdentifier.API.csproj|c:\\users\\zagros\\desktop\\final project\\animalidentifier\\animalidentifier\\animalidentifier.api\\extentions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4299797-4741-4679-ADBC-854927326EB7}|AnimalIdentifier.API\\AnimalIdentifier.API.csproj|solutionrelative:animalidentifier.api\\extentions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9933EA7C-8F4B-483D-8B19-39059DCBA1E3}|AnimalIdentifier.WebUI\\AnimalIdentifier.WebUI.csproj|c:\\users\\zagros\\desktop\\final project\\animalidentifier\\animalidentifier\\animalidentifier.webui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9933EA7C-8F4B-483D-8B19-39059DCBA1E3}|AnimalIdentifier.WebUI\\AnimalIdentifier.WebUI.csproj|solutionrelative:animalidentifier.webui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4299797-4741-4679-ADBC-854927326EB7}|AnimalIdentifier.API\\AnimalIdentifier.API.csproj|c:\\users\\zagros\\desktop\\final project\\animalidentifier\\animalidentifier\\animalidentifier.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E4299797-4741-4679-ADBC-854927326EB7}|AnimalIdentifier.API\\AnimalIdentifier.API.csproj|solutionrelative:animalidentifier.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9933EA7C-8F4B-483D-8B19-39059DCBA1E3}|AnimalIdentifier.WebUI\\AnimalIdentifier.WebUI.csproj|c:\\users\\zagros\\desktop\\final project\\animalidentifier\\animalidentifier\\animalidentifier.webui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9933EA7C-8F4B-483D-8B19-39059DCBA1E3}|AnimalIdentifier.WebUI\\AnimalIdentifier.WebUI.csproj|solutionrelative:animalidentifier.webui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,67 +38,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "AnimalIdentifier.API\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.API\\appsettings.Development.json",
-              "RelativeToolTip": "AnimalIdentifier.API\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-03T23:40:22.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.WebUI\\appsettings.json",
-              "RelativeDocumentMoniker": "AnimalIdentifier.WebUI\\appsettings.json",
-              "ToolTip": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.WebUI\\appsettings.json",
-              "RelativeToolTip": "AnimalIdentifier.WebUI\\appsettings.json",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAswAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-03T23:27:52.757Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.API\\appsettings.json",
-              "RelativeDocumentMoniker": "AnimalIdentifier.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.API\\appsettings.json",
-              "RelativeToolTip": "AnimalIdentifier.API\\appsettings.json",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-03T23:14:41.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.API\\Program.cs",
-              "RelativeDocumentMoniker": "AnimalIdentifier.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.API\\Program.cs",
-              "RelativeToolTip": "AnimalIdentifier.API\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwFAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T23:13:14.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServiceCollectionExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.API\\Extentions\\ServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "AnimalIdentifier.API\\Extentions\\ServiceCollectionExtensions.cs",
-              "ToolTip": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.API\\Extentions\\ServiceCollectionExtensions.cs",
-              "RelativeToolTip": "AnimalIdentifier.API\\Extentions\\ServiceCollectionExtensions.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBEAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T23:13:10.103Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.WebUI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AnimalIdentifier.WebUI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.WebUI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AnimalIdentifier.WebUI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwCsAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T10:58:00.602Z",
               "EditorCaption": ""
             }
           ]

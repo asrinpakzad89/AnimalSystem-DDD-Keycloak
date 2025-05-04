@@ -14,17 +14,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateAnimalCommand"
+                "$ref": "#/components/schemas/AnimalIdentifier.Application.Commands.CreateAnimalCommand"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateAnimalCommand"
+                "$ref": "#/components/schemas/AnimalIdentifier.Application.Commands.CreateAnimalCommand"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateAnimalCommand"
+                "$ref": "#/components/schemas/AnimalIdentifier.Application.Commands.CreateAnimalCommand"
               }
             }
           }
@@ -45,17 +45,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateAnimalCommand"
+                "$ref": "#/components/schemas/AnimalIdentifier.Application.Commands.UpdateAnimalCommand"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateAnimalCommand"
+                "$ref": "#/components/schemas/AnimalIdentifier.Application.Commands.UpdateAnimalCommand"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateAnimalCommand"
+                "$ref": "#/components/schemas/AnimalIdentifier.Application.Commands.UpdateAnimalCommand"
               }
             }
           }
@@ -76,17 +76,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/DeleteAnimalCommand"
+                "$ref": "#/components/schemas/AnimalIdentifier.Application.Commands.DeleteAnimalCommand"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/DeleteAnimalCommand"
+                "$ref": "#/components/schemas/AnimalIdentifier.Application.Commands.DeleteAnimalCommand"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/DeleteAnimalCommand"
+                "$ref": "#/components/schemas/AnimalIdentifier.Application.Commands.DeleteAnimalCommand"
               }
             }
           }
@@ -107,17 +107,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/GetAnimalByIdQuery"
+                "$ref": "#/components/schemas/AnimalIdentifier.Application.Queries.GetAnimalByIdQuery"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/GetAnimalByIdQuery"
+                "$ref": "#/components/schemas/AnimalIdentifier.Application.Queries.GetAnimalByIdQuery"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/GetAnimalByIdQuery"
+                "$ref": "#/components/schemas/AnimalIdentifier.Application.Queries.GetAnimalByIdQuery"
               }
             }
           }
@@ -128,17 +128,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/AnimalDto"
+                  "$ref": "#/components/schemas/AnimalIdentifier.Application.Animals.ViewModels.AnimalDto"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/AnimalDto"
+                  "$ref": "#/components/schemas/AnimalIdentifier.Application.Animals.ViewModels.AnimalDto"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/AnimalDto"
+                  "$ref": "#/components/schemas/AnimalIdentifier.Application.Animals.ViewModels.AnimalDto"
                 }
               }
             }
@@ -159,7 +159,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/AnimalDto"
+                    "$ref": "#/components/schemas/AnimalIdentifier.Application.Animals.ViewModels.AnimalDto"
                   }
                 }
               },
@@ -167,7 +167,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/AnimalDto"
+                    "$ref": "#/components/schemas/AnimalIdentifier.Application.Animals.ViewModels.AnimalDto"
                   }
                 }
               },
@@ -175,7 +175,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/AnimalDto"
+                    "$ref": "#/components/schemas/AnimalIdentifier.Application.Animals.ViewModels.AnimalDto"
                   }
                 }
               }
@@ -187,7 +187,7 @@
   },
   "components": {
     "schemas": {
-      "AnimalDto": {
+      "AnimalIdentifier.Application.Animals.ViewModels.AnimalDto": {
         "type": "object",
         "properties": {
           "id": {
@@ -201,7 +201,7 @@
         },
         "additionalProperties": false
       },
-      "CreateAnimalCommand": {
+      "AnimalIdentifier.Application.Commands.CreateAnimalCommand": {
         "type": "object",
         "properties": {
           "name": {
@@ -211,7 +211,7 @@
         },
         "additionalProperties": false
       },
-      "DeleteAnimalCommand": {
+      "AnimalIdentifier.Application.Commands.DeleteAnimalCommand": {
         "type": "object",
         "properties": {
           "id": {
@@ -221,17 +221,7 @@
         },
         "additionalProperties": false
       },
-      "GetAnimalByIdQuery": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
-      "UpdateAnimalCommand": {
+      "AnimalIdentifier.Application.Commands.UpdateAnimalCommand": {
         "type": "object",
         "properties": {
           "id": {
@@ -241,10 +231,40 @@
           "name": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AnimalIdentifier.Application.Queries.GetAnimalByIdQuery": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Keycloak": {
+        "type": "oauth2",
+        "flows": {
+          "implicit": {
+            "authorizationUrl": "http://localhost:8080/realms/AnimalRealm/protocol/openid-connect/auth",
+            "tokenUrl": "http://localhost:8080/realms/AnimalRealm/protocol/openid-connect/token",
+            "scopes": {
+              "openid": "openid",
+              "profile": "profile"
+            }
+          }
+        }
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Keycloak": [ ]
+    }
+  ]
 }

@@ -43,3 +43,4 @@ C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalId
 C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\refint\AnimalIdentifier.Infrastructure.dll
 C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\AnimalIdentifier.Infrastructure.pdb
 C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\ref\AnimalIdentifier.Infrastructure.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\AnimalIdentifier.Infrastructure.sourcelink.json

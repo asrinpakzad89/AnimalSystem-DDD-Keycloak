@@ -1,4 +1,5 @@
-﻿using AnimalIdentifier.Application.Extentions;
+﻿using AnimalIdentifier.API.Extentions;
+using AnimalIdentifier.Application.Extentions;
 using AnimalIdentifier.Infrastructure.Extentions;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
@@ -11,7 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGenWithAuth(builder.Configuration);
 
 #region DependencyInjection
 builder.Services.AddApplicationServices();

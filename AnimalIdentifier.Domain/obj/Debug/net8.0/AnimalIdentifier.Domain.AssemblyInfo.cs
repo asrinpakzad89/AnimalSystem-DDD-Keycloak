@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AnimalIdentifier.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65afbfcea49bf83d853c2a3e915d0d7746b450b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+706513b737b12d2c2e6e9d6aac433e1f48976ecb")]
 [assembly: System.Reflection.AssemblyProductAttribute("AnimalIdentifier.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AnimalIdentifier.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -403,3 +403,4 @@ C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalId
 C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.pdb
 C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.genruntimeconfig.cache
 C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\ref\AnimalIdentifier.API.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.API\obj\Debug\net8.0\AnimalIdentifier.API.sourcelink.json

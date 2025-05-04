@@ -34,3 +34,4 @@ C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalId
 C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\refint\AnimalIdentifier.Domain.dll
 C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.pdb
 C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\ref\AnimalIdentifier.Domain.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.sourcelink.json

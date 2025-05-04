@@ -64,234 +64,233 @@
     <script src="~/Sweetalert2/sweetalert2.min.js"></script>
     <script>
 
-       /* Delete Animal */
-        function DeleteAnimal(AnimalId) {
-                swal.fire({
-                    title: 'حذف',
-                    text: "کاربر گرامی از عملیات حذف مطمئن هستید؟",
-                    icon: 'warning',
-                    showCancelButton: true,
-                    confirmButtonColor: '#d33',
-                    cancelButtonColor: '#7cacbe',
-                    confirmButtonText: 'بله ، حذف شود',
-                    cancelButtonText: 'خیر'
-                }).then((result) => {
+        /* Delete Animal */
+         function DeleteAnimal(AnimalId) {
+                 swal.fire({
+                     title: 'حذف',
+                     text: "کاربر گرامی از عملیات حذف مطمئن هستید؟",
+                     icon: 'warning',
+                     showCancelButton: true,
+                     confirmButtonColor: '#d33',
+                     cancelButtonColor: '#7cacbe',
+                     confirmButtonText: 'بله ، حذف شود',
+                     cancelButtonText: 'خیر'
+                 }).then((result) => {
 
-                    if (result.value) {
+                     if (result.value) {
 
-                       const postData = {
-                         id : AnimalId
-                       };
+                        const postData = {
+                          id : AnimalId
+                        };
 
-                       $.ajax({
-                         contentType: 'application/json',
-                         dataType: 'json',
-                         type: "Post",
-                         url: "/Home/Delete",
-                         data: JSON.stringify(postData),
-                         success: function (data) {
-                             if (data.isSuccess == true) {
+                        $.ajax({
+                          contentType: 'application/json',
+                          dataType: 'json',
+                          type: "Post",
+                          url: "/Home/Delete",
+                          data: JSON.stringify(postData),
+                          success: function (data) {
+                              if (data.isSuccess == true) {
+                                  swal.fire(
+                                      '!موفق',
+                                      data.message,
+                                      'success'
+                                  ).then(function (isConfirm) {
+                                      location.reload();
+                                  });
+                              }
+                              else {
                                  swal.fire(
-                                     '!موفق',
-                                     data.message,
-                                     'success'
-                                 ).then(function (isConfirm) {
-                                     location.reload();
-                                 });
-                             }
-                             else {
-                                swal.fire(
-                                   '!هشدار',
-                                    data.message,
-                                    'warning'
-                                );
-                             }
-                          },
-                          error: function (request, status, error) {
-                              swal.fire(
-                                     '!خطا',
-                                       request.responseText,
-                                     'warning'
-                               );
-                       // alert(request.responseText);
-                    }
-                });
-                    }
-                });
-             }
-
-       /* Edit Animal */
-        function EditAnimal() {
-
-                 var animalId = $("#Edit_AnimalId").val();
-                 var name = $("#Edit_Name").val();
-
-                const postData = {
-                     id : animalId,
-                     name : name
-                 };
-                 if(name == ""){
-                        swal.fire(
                                     '!هشدار',
-                                    '.لطفا نام حیوان را وارد نمایید',
-                                    'warning'
+                                     data.message,
+                                     'warning'
+                                 );
+                              }
+                           },
+                           error: function (request, status, error) {
+                               swal.fire(
+                                      '!خطا',
+                                        request.responseText,
+                                      'warning'
                                 );
-                        return;
-                  }
-                $.ajax({
-                    contentType: 'application/json',
-                    dataType: 'json',
-                    type: "Post",
-                    url: "/Home/Edit",
-                    data: JSON.stringify(postData),
-                    success: function (data) {
-                        if (data.isSuccess == true) {
-                            swal.fire(
-                                '!موفق',
-                                data.message,
-                                'success'
-                            ).then(function (isConfirm) {
-                                location.reload();
-                            });
-                        }
-                        else {
-                            swal.fire(
-                               '!هشدار',
-                                data.message,
-                                'warning'
-                            );
-                        }
-                    },
-                    error: function (request, status, error) {
-                         swal.fire(
-                                '!خطا',
-                                  request.responseText,
-                                'warning'
-                            );
-                       // alert(request.responseText);
-                    }
-                });
+                        // alert(request.responseText);
+                     }
+                 });
+                     }
+                 });
+              }
 
-                $('#EditAnimal').modal('hide');
-        }
-        function ShowModalEditAnimal(AnimalId, name) {
-                $('#Edit_Name').val(name)
-                $('#Edit_AnimalId').val(AnimalId)
+        /* Edit Animal */
+         function EditAnimal() {
 
-                $('#EditAnimal').modal('show');
-        }
-
-       /* Create Animal */
-        function CreateAnimal() {
-
-                 var name = $("#Create_Name").val();
-
-                 const postData = {
-                     name : name
-                  };
+                  var animalId = $("#Edit_AnimalId").val();
+                  var name = $("#Edit_Name").val();
                   if(name == ""){
-                        swal.fire(
-                             '!هشدار',
-                            '.لطفا نام حیوان را وارد نمایید',
-                            'warning'
-                        );
-                        return;
+                         swal.fire(
+                                     '!هشدار',
+                                     '.لطفا نام حیوان را وارد نمایید',
+                                     'warning'
+                                 );
+                         return;
                   }
-                  $.ajax({
-                      contentType: 'application/json',
-                      dataType: 'json',
-                      type: "Post",
-                      url: "/Home/Create",
-                      data: JSON.stringify(postData),
-                      success: function (data) {
-                          if (data.isSuccess == true) {
-                              swal.fire(
-                                  '!موفق',
-                                  data.message,
-                                  'success'
-                              ).then(function (isConfirm) {
-                                  location.reload();
-                              });
-                          }
-                          else {
-                              swal.fire(
-                                  '!هشدار',
-                                  data.message,
-                                  'warning'
-                              );
-                          }
-                      },
-                      error: function (request, status, error) {
-                           swal.fire(
-                                  '!خطا',
-                                    request.responseText,
-                                  'warning'
-                              );
-                         // alert(request.responseText);
-                      }
-                  });
+                     const postData = {
+                       id : animalId,
+                       name : name
+                  };
+                 $.ajax({
+                     contentType: 'application/json',
+                     dataType: 'json',
+                     type: "Post",
+                     url: "/Home/Edit",
+                     data: JSON.stringify(postData),
+                     success: function (data) {
+                         if (data.isSuccess == true) {
+                             swal.fire(
+                                 '!موفق',
+                                 data.message,
+                                 'success'
+                             ).then(function (isConfirm) {
+                                 location.reload();
+                             });
+                         }
+                         else {
+                             swal.fire(
+                                '!هشدار',
+                                 data.message,
+                                 'warning'
+                             );
+                         }
+                     },
+                     error: function (request, status, error) {
+                          swal.fire(
+                                 '!خطا',
+                                   request.responseText,
+                                 'warning'
+                             );
+                        // alert(request.responseText);
+                     }
+                 });
 
-                   $('#CreateAnimal').modal('hide');
-        }
-        function ShowModalCreateAnimal() {
-                $('#CreateAnimal').modal('show');
-        }
+                 $('#EditAnimal').modal('hide');
+         }
+         function ShowModalEditAnimal(AnimalId, name) {
+                 $('#Edit_Name').val(name)
+                 $('#Edit_AnimalId').val(AnimalId)
 
-       /* Search Animal */
-        async function ShowModalDisplayAnimal() {
-            var animalId = $("#txtAnimalId").val();
-            if(animalId == ""){
-                swal.fire(
-                            '!هشدار',
-                            '.لطفا شناسه حیوان را وارد نمایید',
-                            'warning'
-                        );
-                return;
+                 $('#EditAnimal').modal('show');
+         }
+
+        /* Create Animal */
+         function CreateAnimal() {
+
+                  var name = $("#Create_Name").val();
+                   if(name == ""){
+                         swal.fire(
+                              '!هشدار',
+                             '.لطفا نام حیوان را وارد نمایید',
+                             'warning'
+                         );
+                         return;
+                   }
+                  const postData = {
+                      name : name
+                   };
+
+                   $.ajax({
+                       contentType: 'application/json',
+                       dataType: 'json',
+                       type: "Post",
+                       url: "/Home/Create",
+                       data: JSON.stringify(postData),
+                       success: function (data) {
+                           if (data.isSuccess == true) {
+                               swal.fire(
+                                   '!موفق',
+                                   data.message,
+                                   'success'
+                               ).then(function (isConfirm) {
+                                   location.reload();
+                               });
+                           }
+                           else {
+                               swal.fire(
+                                   '!هشدار',
+                                   data.message,
+                                   'warning'
+                               );
+                           }
+                       },
+                       error: function (request, status, error) {
+                            swal.fire(
+                                   '!خطا',
+                                     request.responseText,
+                                   'warning'
+                               );
+                          // alert(request.responseText);
+                       }
+                   });
+
+                    $('#CreateAnimal').modal('hide');
+         }
+         function ShowModalCreateAnimal() {
+                 $('#CreateAnimal').modal('show');
+         }
+
+        /* Search Animal */
+         async function ShowModalDisplayAnimal() {
+             var animalId = $("#txtAnimalId").val();
+             if(animalId == ""){
+                 swal.fire(
+                             '!هشدار',
+                             '.لطفا شناسه حیوان را وارد نمایید',
+                             'warning'
+                         );
+                 return;
+              }
+             const postData = {
+                 id: animalId
+             };
+
+             try {
+                 const response = await fetch("/Home/GetById", {
+                     method: "POST",
+                     headers: {
+                         "Content-Type": "application/json"
+                     },
+                     body: JSON.stringify(postData)
+                 });
+
+                 // بررسی وضعیت پاسخ
+                 if (!response.ok) {
+                     throw new Error(".خطا در ارتباط با سرور");
+                 }
+
+                 // تبدیل پاسخ به JSON
+                 const data = await response.json();
+                 if (data.isSuccess) {
+                     swal.fire(
+                          data.name,
+                         '',
+                         'success'
+                     ).then(function (isConfirm) {
+                         location.reload();
+                     });
+                 } else {
+                     swal.fire(
+                         '!هشدار',
+                         data.message,
+                         'warning'
+                     );
+                 }
+             } catch (error) {
+                 // مدیریت خطا
+                 swal.fire(
+                     '!خطا',
+                     error.message,
+                     'warning'
+                 );
              }
-            const postData = {
-                id: animalId
-            };
-
-            try {
-                const response = await fetch("/Home/GetById", {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "application/json"
-                    },
-                    body: JSON.stringify(postData)
-                });
-
-                // بررسی وضعیت پاسخ
-                if (!response.ok) {
-                    throw new Error(".خطا در ارتباط با سرور");
-                }
-
-                // تبدیل پاسخ به JSON
-                const data = await response.json();
-                if (data.isSuccess) {
-                    swal.fire(
-                         data.name,
-                        '',
-                        'success'
-                    ).then(function (isConfirm) {
-                        location.reload();
-                    });
-                } else {
-                    swal.fire(
-                        '!هشدار',
-                        data.message,
-                        'warning'
-                    );
-                }
-            } catch (error) {
-                // مدیریت خطا
-                swal.fire(
-                    '!خطا',
-                    error.message,
-                    'warning'
-                );
-            }
-        }
+         }
     </script>
     }
 @section Modals

@@ -28,3 +28,19 @@ F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\obj\Debug\n
 F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\refint\AnimalIdentifier.Infrastructure.dll
 F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\AnimalIdentifier.Infrastructure.pdb
 F:\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\ref\AnimalIdentifier.Infrastructure.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\bin\Debug\net8.0\AnimalIdentifier.Infrastructure.deps.json
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\bin\Debug\net8.0\AnimalIdentifier.Infrastructure.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\bin\Debug\net8.0\AnimalIdentifier.Infrastructure.pdb
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\bin\Debug\net8.0\AnimalIdentifier.Domain.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\bin\Debug\net8.0\AnimalIdentifier.Domain.pdb
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\AnimalIdentifier.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\AnimalIdentifier.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\AnimalIdentifier.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\AnimalIdentifier.Infrastructure.AssemblyInfo.cs
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\AnimalIdentifier.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\AnimalIdentifier.Infrastructure.sourcelink.json
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\AnimalId.221813F8.Up2Date
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\AnimalIdentifier.Infrastructure.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\refint\AnimalIdentifier.Infrastructure.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\AnimalIdentifier.Infrastructure.pdb
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\ref\AnimalIdentifier.Infrastructure.dll

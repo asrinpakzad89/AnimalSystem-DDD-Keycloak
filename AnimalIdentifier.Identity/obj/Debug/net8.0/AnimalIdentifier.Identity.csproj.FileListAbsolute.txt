@@ -32,3 +32,38 @@ C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Ident
 C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\AnimalIdentifier.Identity.pdb
 C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\AnimalIdentifier.Identity.genruntimeconfig.cache
 C:\Users\Zagros\Desktop\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\ref\AnimalIdentifier.Identity.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\bin\Debug\net8.0\appsettings.json
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\bin\Debug\net8.0\AnimalIdentifier.Identity.staticwebassets.runtime.json
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\bin\Debug\net8.0\AnimalIdentifier.Identity.staticwebassets.endpoints.json
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\bin\Debug\net8.0\AnimalIdentifier.Identity.exe
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\bin\Debug\net8.0\AnimalIdentifier.Identity.deps.json
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\bin\Debug\net8.0\AnimalIdentifier.Identity.runtimeconfig.json
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\bin\Debug\net8.0\AnimalIdentifier.Identity.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\bin\Debug\net8.0\AnimalIdentifier.Identity.pdb
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\AnimalIdentifier.Identity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\AnimalIdentifier.Identity.AssemblyInfoInputs.cache
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\AnimalIdentifier.Identity.AssemblyInfo.cs
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\AnimalIdentifier.Identity.csproj.CoreCompileInputs.cache
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\AnimalIdentifier.Identity.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\AnimalIdentifier.Identity.RazorAssemblyInfo.cache
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\AnimalIdentifier.Identity.RazorAssemblyInfo.cs
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\AnimalIdentifier.Identity.sourcelink.json
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\scopedcss\bundle\AnimalIdentifier.Identity.styles.css
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\scopedcss\projectbundle\AnimalIdentifier.Identity.bundle.scp.css
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\staticwebassets\msbuild.AnimalIdentifier.Identity.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\staticwebassets\msbuild.AnimalIdentifier.Identity.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\staticwebassets\msbuild.build.AnimalIdentifier.Identity.props
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AnimalIdentifier.Identity.props
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AnimalIdentifier.Identity.props
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\AnimalIdentifier.Identity.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\refint\AnimalIdentifier.Identity.dll
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\AnimalIdentifier.Identity.pdb
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\AnimalIdentifier.Identity.genruntimeconfig.cache
+C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Identity\obj\Debug\net8.0\ref\AnimalIdentifier.Identity.dll

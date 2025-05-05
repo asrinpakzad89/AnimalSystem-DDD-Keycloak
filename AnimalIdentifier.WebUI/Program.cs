@@ -4,11 +4,21 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 using Microsoft.IdentityModel.Tokens;
+using Serilog;
+
 using System.Security.Claims;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+builder.Host.UseSerilog((context, services, configuration) =>
+{
+    configuration
+        .MinimumLevel.Information()
+        .Enrich.FromLogContext()
+        .WriteTo.Console()
+        .WriteTo.File("Logs/log-.log", rollingInterval: RollingInterval.Day);
+});
+
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient();
 
@@ -21,7 +31,7 @@ builder.Services.AddControllers();
 
 builder.Services.AddHttpClient("AnimalApi", client =>
 {
-    client.BaseAddress = new Uri("http://localhost:7287");
+    client.BaseAddress = new Uri(builder.Configuration.GetSection("Keycloak")["ClienScopeUrl"]);
 });
 
 builder.Services.AddAuthentication(options =>
@@ -82,6 +92,7 @@ builder.Services.AddAuthorization(options =>
     //        context.User.HasClaim(c =>
     //            (c.Value == "admin") || (c.Value == "reader"))));
 });
+
 
 var app = builder.Build();
 

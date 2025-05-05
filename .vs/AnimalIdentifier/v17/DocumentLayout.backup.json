@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9933EA7C-8F4B-483D-8B19-39059DCBA1E3}|AnimalIdentifier.WebUI\\AnimalIdentifier.WebUI.csproj|c:\\users\\zagros\\desktop\\final project\\animalidentifier\\animalidentifier\\animalidentifier.webui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9933EA7C-8F4B-483D-8B19-39059DCBA1E3}|AnimalIdentifier.WebUI\\AnimalIdentifier.WebUI.csproj|solutionrelative:animalidentifier.webui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9933EA7C-8F4B-483D-8B19-39059DCBA1E3}|AnimalIdentifier.WebUI\\AnimalIdentifier.WebUI.csproj|c:\\users\\zagros\\desktop\\final project\\animalidentifier\\animalidentifier\\animalidentifier.webui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9933EA7C-8F4B-483D-8B19-39059DCBA1E3}|AnimalIdentifier.WebUI\\AnimalIdentifier.WebUI.csproj|solutionrelative:animalidentifier.webui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,32 +30,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.WebUI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "AnimalIdentifier.WebUI\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.WebUI\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "AnimalIdentifier.WebUI\\Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-04T11:26:11.19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.WebUI\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "AnimalIdentifier.WebUI\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.WebUI\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "AnimalIdentifier.WebUI\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABUBAAAAAAAAAAAuwMIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-04T10:58:00.602Z",
-              "EditorCaption": ""
             }
           ]
         }

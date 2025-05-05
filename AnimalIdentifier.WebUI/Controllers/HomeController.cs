@@ -1,5 +1,4 @@
 ﻿using AnimalIdentifier.Application.Animals.ViewModels;
-using AnimalIdentifier.Application.Commands;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
@@ -7,7 +6,6 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Net.Http.Headers;
-using System.Security.Claims;
 using System.Text;
 
 namespace AnimalIdentifier.WebUI.Controllers;
@@ -27,7 +25,7 @@ public class HomeController : Controller
         {
             return Challenge(new AuthenticationProperties
             {
-                RedirectUri = Url.Action("Index", "Home") 
+                RedirectUri = Url.Action("Index", "Home")
             }, OpenIdConnectDefaults.AuthenticationScheme);
         }
         using var httpClient = await GetHttpClientAsync();

@@ -1,0 +1,788 @@
+2025-05-10 07:34:41.326 +03:30 [INF] User profile is available. Using 'C:\Users\ghand\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-10 07:34:41.460 +03:30 [INF] Now listening on: https://localhost:7023
+2025-05-10 07:34:41.462 +03:30 [INF] Now listening on: http://localhost:5212
+2025-05-10 07:34:41.495 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-10 07:34:41.496 +03:30 [INF] Hosting environment: Development
+2025-05-10 07:34:41.497 +03:30 [INF] Content root path: D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI
+2025-05-10 07:34:42.144 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 07:34:42.723 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-10 07:34:42.860 +03:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-05-10 07:34:42.864 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 720.5699ms
+2025-05-10 07:45:02.760 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 07:45:02.772 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-10 07:45:02.774 +03:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-05-10 07:45:02.776 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 16.2555ms
+2025-05-10 07:45:20.265 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 07:45:20.277 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-10 07:45:20.279 +03:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-05-10 07:45:20.280 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 14.6975ms
+2025-05-10 07:45:28.534 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/* - null null
+2025-05-10 07:45:28.543 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/* - 404 0 null 8.766ms
+2025-05-10 07:45:28.551 +03:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7023/*, Response status code: 404
+2025-05-10 07:47:38.044 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 07:47:38.050 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-10 07:47:38.052 +03:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-05-10 07:47:38.054 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 9.195ms
+2025-05-10 07:47:49.049 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/signin-oidc - application/x-www-form-urlencoded 620
+2025-05-10 07:47:49.088 +03:30 [ERR] Message contains error: 'unauthorized_client', error_description: 'Invalid client or Invalid client credentials', error_uri: 'error_uri is null', status code '401'.
+2025-05-10 07:47:49.094 +03:30 [ERR] Exception occurred while processing message.
+Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectProtocolException: Message contains error: 'unauthorized_client', error_description: 'Invalid client or Invalid client credentials', error_uri: 'error_uri is null'.
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.RedeemAuthorizationCodeAsync(OpenIdConnectMessage tokenEndpointRequest)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleRemoteAuthenticateAsync()
+2025-05-10 07:47:49.111 +03:30 [INF] Error from RemoteAuthentication: Message contains error: 'unauthorized_client', error_description: 'Invalid client or Invalid client credentials', error_uri: 'error_uri is null'..
+2025-05-10 07:47:49.113 +03:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Authentication.AuthenticationFailureException: An error was encountered while handling the remote login.
+ ---> Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectProtocolException: Message contains error: 'unauthorized_client', error_description: 'Invalid client or Invalid client credentials', error_uri: 'error_uri is null'.
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.RedeemAuthorizationCodeAsync(OpenIdConnectMessage tokenEndpointRequest)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleRemoteAuthenticateAsync()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.HandleRequestAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-10 07:47:49.144 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/signin-oidc - 500 null text/html; charset=utf-8 95.1769ms
+2025-05-10 07:47:49.160 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_vs/browserLink - null null
+2025-05-10 07:47:49.162 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-10 07:47:49.172 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - 200 16529 application/javascript; charset=utf-8 10.2217ms
+2025-05-10 07:47:49.190 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.6271ms
+2025-05-10 07:47:49.205 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/favicon.ico - null null
+2025-05-10 07:47:49.230 +03:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI\wwwroot\favicon.ico'
+2025-05-10 07:47:49.232 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/favicon.ico - 200 5430 image/x-icon 26.5684ms
+2025-05-10 07:49:30.301 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/signin-oidc - application/x-www-form-urlencoded 620
+2025-05-10 07:49:30.325 +03:30 [ERR] Message contains error: 'unauthorized_client', error_description: 'Invalid client or Invalid client credentials', error_uri: 'error_uri is null', status code '401'.
+2025-05-10 07:49:30.328 +03:30 [ERR] Exception occurred while processing message.
+Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectProtocolException: Message contains error: 'unauthorized_client', error_description: 'Invalid client or Invalid client credentials', error_uri: 'error_uri is null'.
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.RedeemAuthorizationCodeAsync(OpenIdConnectMessage tokenEndpointRequest)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleRemoteAuthenticateAsync()
+2025-05-10 07:49:30.331 +03:30 [INF] Error from RemoteAuthentication: Message contains error: 'unauthorized_client', error_description: 'Invalid client or Invalid client credentials', error_uri: 'error_uri is null'..
+2025-05-10 07:49:30.332 +03:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Authentication.AuthenticationFailureException: An error was encountered while handling the remote login.
+ ---> Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectProtocolException: Message contains error: 'unauthorized_client', error_description: 'Invalid client or Invalid client credentials', error_uri: 'error_uri is null'.
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.RedeemAuthorizationCodeAsync(OpenIdConnectMessage tokenEndpointRequest)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleRemoteAuthenticateAsync()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.HandleRequestAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-10 07:49:30.337 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/signin-oidc - 500 null text/html; charset=utf-8 35.8189ms
+2025-05-10 07:49:30.349 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-10 07:49:30.349 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_vs/browserLink - null null
+2025-05-10 07:49:30.354 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - 200 16529 application/javascript; charset=utf-8 4.2198ms
+2025-05-10 07:49:30.365 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.1884ms
+2025-05-10 07:49:30.375 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/favicon.ico - null null
+2025-05-10 07:49:30.380 +03:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI\wwwroot\favicon.ico'
+2025-05-10 07:49:30.381 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/favicon.ico - 200 5430 image/x-icon 6.0675ms
+2025-05-10 07:49:33.450 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/signin-oidc - application/x-www-form-urlencoded 620
+2025-05-10 07:49:33.459 +03:30 [ERR] Message contains error: 'unauthorized_client', error_description: 'Invalid client or Invalid client credentials', error_uri: 'error_uri is null', status code '401'.
+2025-05-10 07:49:33.461 +03:30 [ERR] Exception occurred while processing message.
+Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectProtocolException: Message contains error: 'unauthorized_client', error_description: 'Invalid client or Invalid client credentials', error_uri: 'error_uri is null'.
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.RedeemAuthorizationCodeAsync(OpenIdConnectMessage tokenEndpointRequest)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleRemoteAuthenticateAsync()
+2025-05-10 07:49:33.463 +03:30 [INF] Error from RemoteAuthentication: Message contains error: 'unauthorized_client', error_description: 'Invalid client or Invalid client credentials', error_uri: 'error_uri is null'..
+2025-05-10 07:49:33.465 +03:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Authentication.AuthenticationFailureException: An error was encountered while handling the remote login.
+ ---> Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectProtocolException: Message contains error: 'unauthorized_client', error_description: 'Invalid client or Invalid client credentials', error_uri: 'error_uri is null'.
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.RedeemAuthorizationCodeAsync(OpenIdConnectMessage tokenEndpointRequest)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleRemoteAuthenticateAsync()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.HandleRequestAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-10 07:49:33.469 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/signin-oidc - 500 null text/html; charset=utf-8 19.9156ms
+2025-05-10 07:49:33.479 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_vs/browserLink - null null
+2025-05-10 07:49:33.480 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-10 07:49:33.486 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - 200 16529 application/javascript; charset=utf-8 6.3861ms
+2025-05-10 07:49:33.487 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.9123ms
+2025-05-10 07:50:37.756 +03:30 [INF] User profile is available. Using 'C:\Users\ghand\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-10 07:50:37.851 +03:30 [INF] Now listening on: https://localhost:7023
+2025-05-10 07:50:37.853 +03:30 [INF] Now listening on: http://localhost:5212
+2025-05-10 07:50:37.883 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-10 07:50:37.884 +03:30 [INF] Hosting environment: Development
+2025-05-10 07:50:37.885 +03:30 [INF] Content root path: D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI
+2025-05-10 07:50:38.196 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 07:50:38.841 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-10 07:50:38.917 +03:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-05-10 07:50:38.920 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 724.4619ms
+2025-05-10 07:50:43.459 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/signin-oidc - application/x-www-form-urlencoded 620
+2025-05-10 07:50:43.579 +03:30 [INF] AuthenticationScheme: Cookies signed in.
+2025-05-10 07:50:43.581 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/signin-oidc - 302 0 null 122.6157ms
+2025-05-10 07:50:43.587 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 07:50:43.599 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 07:50:43.624 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 07:50:48.970 +03:30 [INF] Executing SignOutResult with authentication schemes (["OpenIdConnect","Cookies"]).
+2025-05-10 07:50:48.982 +03:30 [INF] AuthenticationScheme: OpenIdConnect signed out.
+2025-05-10 07:50:48.985 +03:30 [INF] AuthenticationScheme: Cookies signed out.
+2025-05-10 07:50:48.991 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI) in 5360.0342ms
+2025-05-10 07:50:48.993 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 07:50:48.995 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 5407.4781ms
+2025-05-10 07:50:49.014 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/signout-callback-oidc?state=CfDJ8JQyvP6gemRMogPZtIpfOy14pPD8pkn9P3xcPcC_4SRGsEBPAOuaioLdfqSMJMepA3MpFNbdIePbFQYY6ANjgob60PUJ_zAhNe83yG_K9Zx3O5etU4xmxPSjNcuiBgc6XfhDWXZ2SytdhX3ciqvARs6z45fiEw0YD1om98WbgK2- - null null
+2025-05-10 07:50:49.029 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/signout-callback-oidc?state=CfDJ8JQyvP6gemRMogPZtIpfOy14pPD8pkn9P3xcPcC_4SRGsEBPAOuaioLdfqSMJMepA3MpFNbdIePbFQYY6ANjgob60PUJ_zAhNe83yG_K9Zx3O5etU4xmxPSjNcuiBgc6XfhDWXZ2SytdhX3ciqvARs6z45fiEw0YD1om98WbgK2- - 302 0 null 15.0938ms
+2025-05-10 07:50:49.031 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 07:50:49.039 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-10 07:50:49.042 +03:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-05-10 07:50:49.044 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 13.1516ms
+2025-05-10 07:56:56.663 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 07:56:56.671 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-10 07:56:56.673 +03:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-05-10 07:56:56.675 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 12.1918ms
+2025-05-10 07:57:01.397 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/signin-oidc - application/x-www-form-urlencoded 620
+2025-05-10 07:57:01.412 +03:30 [ERR] Message contains error: 'unauthorized_client', error_description: 'Invalid client or Invalid client credentials', error_uri: 'error_uri is null', status code '401'.
+2025-05-10 07:57:01.416 +03:30 [ERR] Exception occurred while processing message.
+Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectProtocolException: Message contains error: 'unauthorized_client', error_description: 'Invalid client or Invalid client credentials', error_uri: 'error_uri is null'.
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.RedeemAuthorizationCodeAsync(OpenIdConnectMessage tokenEndpointRequest)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleRemoteAuthenticateAsync()
+2025-05-10 07:57:01.422 +03:30 [INF] Error from RemoteAuthentication: Message contains error: 'unauthorized_client', error_description: 'Invalid client or Invalid client credentials', error_uri: 'error_uri is null'..
+2025-05-10 07:57:01.424 +03:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Authentication.AuthenticationFailureException: An error was encountered while handling the remote login.
+ ---> Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectProtocolException: Message contains error: 'unauthorized_client', error_description: 'Invalid client or Invalid client credentials', error_uri: 'error_uri is null'.
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.RedeemAuthorizationCodeAsync(OpenIdConnectMessage tokenEndpointRequest)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleRemoteAuthenticateAsync()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.HandleRequestAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-10 07:57:01.443 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/signin-oidc - 500 null text/html; charset=utf-8 45.3161ms
+2025-05-10 07:57:01.452 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_vs/browserLink - null null
+2025-05-10 07:57:01.452 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-10 07:57:01.459 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - 200 16529 application/javascript; charset=utf-8 6.1926ms
+2025-05-10 07:57:01.469 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.4934ms
+2025-05-10 07:57:01.490 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/favicon.ico - null null
+2025-05-10 07:57:01.499 +03:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI\wwwroot\favicon.ico'
+2025-05-10 07:57:01.501 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/favicon.ico - 200 5430 image/x-icon 10.8883ms
+2025-05-10 08:00:18.104 +03:30 [INF] User profile is available. Using 'C:\Users\ghand\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-10 08:00:18.198 +03:30 [INF] Now listening on: https://localhost:7023
+2025-05-10 08:00:18.200 +03:30 [INF] Now listening on: http://localhost:5212
+2025-05-10 08:00:18.231 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-10 08:00:18.234 +03:30 [INF] Hosting environment: Development
+2025-05-10 08:00:18.235 +03:30 [INF] Content root path: D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI
+2025-05-10 08:00:24.524 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/signin-oidc - application/x-www-form-urlencoded 620
+2025-05-10 08:00:25.284 +03:30 [ERR] Message contains error: 'invalid_grant', error_description: 'Code not valid', error_uri: 'error_uri is null', status code '400'.
+2025-05-10 08:00:25.287 +03:30 [ERR] Exception occurred while processing message.
+Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectProtocolException: Message contains error: 'invalid_grant', error_description: 'Code not valid', error_uri: 'error_uri is null'.
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.RedeemAuthorizationCodeAsync(OpenIdConnectMessage tokenEndpointRequest)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleRemoteAuthenticateAsync()
+2025-05-10 08:00:25.303 +03:30 [INF] Error from RemoteAuthentication: Message contains error: 'invalid_grant', error_description: 'Code not valid', error_uri: 'error_uri is null'..
+2025-05-10 08:00:25.305 +03:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Authentication.AuthenticationFailureException: An error was encountered while handling the remote login.
+ ---> Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectProtocolException: Message contains error: 'invalid_grant', error_description: 'Code not valid', error_uri: 'error_uri is null'.
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.RedeemAuthorizationCodeAsync(OpenIdConnectMessage tokenEndpointRequest)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleRemoteAuthenticateAsync()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.HandleRequestAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-10 08:00:25.349 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/signin-oidc - 500 null text/html; charset=utf-8 827.1621ms
+2025-05-10 08:00:25.358 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_vs/browserLink - null null
+2025-05-10 08:00:25.358 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-10 08:00:25.367 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - 200 16529 application/javascript; charset=utf-8 9.885ms
+2025-05-10 08:00:25.384 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.6131ms
+2025-05-10 08:09:39.195 +03:30 [INF] User profile is available. Using 'C:\Users\ghand\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-10 08:09:39.287 +03:30 [INF] Now listening on: https://localhost:7023
+2025-05-10 08:09:39.288 +03:30 [INF] Now listening on: http://localhost:5212
+2025-05-10 08:09:39.318 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-10 08:09:39.319 +03:30 [INF] Hosting environment: Development
+2025-05-10 08:09:39.320 +03:30 [INF] Content root path: D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI
+2025-05-10 08:09:39.449 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 08:09:39.508 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-10 08:09:39.559 +03:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-05-10 08:09:39.562 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 113.8916ms
+2025-05-10 08:09:45.661 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/signin-oidc - application/x-www-form-urlencoded 620
+2025-05-10 08:09:45.767 +03:30 [INF] AuthenticationScheme: Cookies signed in.
+2025-05-10 08:09:45.779 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/signin-oidc - 302 0 null 117.6007ms
+2025-05-10 08:09:45.783 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 08:09:45.804 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 08:09:45.824 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 08:09:46.778 +03:30 [INF] Executing SignOutResult with authentication schemes (["OpenIdConnect","Cookies"]).
+2025-05-10 08:09:46.788 +03:30 [INF] AuthenticationScheme: OpenIdConnect signed out.
+2025-05-10 08:09:46.790 +03:30 [INF] AuthenticationScheme: Cookies signed out.
+2025-05-10 08:09:46.796 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI) in 955.8798ms
+2025-05-10 08:09:46.798 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 08:09:46.800 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 1016.5931ms
+2025-05-10 08:09:46.819 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/signout-callback-oidc?state=CfDJ8JQyvP6gemRMogPZtIpfOy0iuouSvtHwfWRdolL3cFWQKVtW7A_QW0GnhSXnBa4Xx4XyoxKk2vuPew_wt1h96rgw3oCHMmVRb2SMEoBCA2iQyxWdZTEdhb7NBMU2jrLrKvzcO4Vw-xD4gOuS-Di5QnWTEkHAWLkIqNe5X3Ubak0A - null null
+2025-05-10 08:09:46.835 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/signout-callback-oidc?state=CfDJ8JQyvP6gemRMogPZtIpfOy0iuouSvtHwfWRdolL3cFWQKVtW7A_QW0GnhSXnBa4Xx4XyoxKk2vuPew_wt1h96rgw3oCHMmVRb2SMEoBCA2iQyxWdZTEdhb7NBMU2jrLrKvzcO4Vw-xD4gOuS-Di5QnWTEkHAWLkIqNe5X3Ubak0A - 302 0 null 15.6931ms
+2025-05-10 08:09:46.842 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 08:09:46.849 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-10 08:09:46.852 +03:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-05-10 08:09:46.853 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 10.9364ms
+2025-05-10 08:09:54.631 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/signin-oidc - application/x-www-form-urlencoded 620
+2025-05-10 08:09:54.654 +03:30 [INF] AuthenticationScheme: Cookies signed in.
+2025-05-10 08:09:54.655 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/signin-oidc - 302 0 null 24.5196ms
+2025-05-10 08:09:54.659 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 08:09:54.666 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 08:09:54.667 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 08:09:54.683 +03:30 [INF] Executing SignOutResult with authentication schemes (["OpenIdConnect","Cookies"]).
+2025-05-10 08:09:54.686 +03:30 [INF] AuthenticationScheme: OpenIdConnect signed out.
+2025-05-10 08:09:54.688 +03:30 [INF] AuthenticationScheme: Cookies signed out.
+2025-05-10 08:09:54.689 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI) in 19.5812ms
+2025-05-10 08:09:54.691 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 08:09:54.693 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 34.515ms
+2025-05-10 08:09:54.703 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/signout-callback-oidc?state=CfDJ8JQyvP6gemRMogPZtIpfOy15JtY9zU0VF5kAs_dCwOa6_PYoBobZiqcxfCinMXJ9DVQTrc5bkkDy_HdMeS7UBk1A7F79NoqK1R_pP88fTDRRKifyCA-3CUGDtMegraUOnUnVvO-pVfa1ly1PYbMoSlfHBt5epxCf4GbZhMDvMaMI - null null
+2025-05-10 08:09:54.707 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/signout-callback-oidc?state=CfDJ8JQyvP6gemRMogPZtIpfOy15JtY9zU0VF5kAs_dCwOa6_PYoBobZiqcxfCinMXJ9DVQTrc5bkkDy_HdMeS7UBk1A7F79NoqK1R_pP88fTDRRKifyCA-3CUGDtMegraUOnUnVvO-pVfa1ly1PYbMoSlfHBt5epxCf4GbZhMDvMaMI - 302 0 null 4.5865ms
+2025-05-10 08:09:54.709 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 08:09:54.715 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-10 08:09:54.716 +03:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-05-10 08:09:54.717 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 8.7618ms
+2025-05-10 08:10:15.489 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/signin-oidc - application/x-www-form-urlencoded 620
+2025-05-10 08:10:15.509 +03:30 [INF] AuthenticationScheme: Cookies signed in.
+2025-05-10 08:10:15.511 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/signin-oidc - 302 0 null 22.3858ms
+2025-05-10 08:10:15.515 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 08:10:15.521 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 08:10:15.522 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 08:10:15.535 +03:30 [INF] Executing SignOutResult with authentication schemes (["OpenIdConnect","Cookies"]).
+2025-05-10 08:10:15.537 +03:30 [INF] AuthenticationScheme: OpenIdConnect signed out.
+2025-05-10 08:10:15.539 +03:30 [INF] AuthenticationScheme: Cookies signed out.
+2025-05-10 08:10:15.541 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI) in 16.5635ms
+2025-05-10 08:10:15.543 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 08:10:15.544 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 29.3607ms
+2025-05-10 08:10:15.558 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/signout-callback-oidc?state=CfDJ8JQyvP6gemRMogPZtIpfOy3XDoFEJIcUZJ9eKOzToTAQvD4rg2E1uDal4gOi6Z3jXf64Cuce5Y7BFvpbPAmzRg-spk6D5AD6hPSXkCU6vTkr8ZtnEKYIQZi0rzeY9A_t_aVpVQNKIBfiSlxfq9fPp8BvPKURE7xOSjBN17WKKiow - null null
+2025-05-10 08:10:15.565 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/signout-callback-oidc?state=CfDJ8JQyvP6gemRMogPZtIpfOy3XDoFEJIcUZJ9eKOzToTAQvD4rg2E1uDal4gOi6Z3jXf64Cuce5Y7BFvpbPAmzRg-spk6D5AD6hPSXkCU6vTkr8ZtnEKYIQZi0rzeY9A_t_aVpVQNKIBfiSlxfq9fPp8BvPKURE7xOSjBN17WKKiow - 302 0 null 6.8682ms
+2025-05-10 08:10:15.568 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 08:10:15.575 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-10 08:10:15.577 +03:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-05-10 08:10:15.578 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 9.5707ms
+2025-05-10 08:12:35.758 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/signin-oidc - application/x-www-form-urlencoded 620
+2025-05-10 08:12:35.769 +03:30 [WRN] '.AspNetCore.Correlation.tdBPe8NYLtmvYLeWOXP51P8El6LlkiLXm0aLfPM8i-o' cookie not found.
+2025-05-10 08:12:35.770 +03:30 [INF] Error from RemoteAuthentication: Correlation failed..
+2025-05-10 08:12:35.774 +03:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Authentication.AuthenticationFailureException: An error was encountered while handling the remote login.
+ ---> Microsoft.AspNetCore.Authentication.AuthenticationFailureException: Correlation failed.
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.HandleRequestAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-10 08:12:35.810 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/signin-oidc - 500 null text/html; charset=utf-8 51.3612ms
+2025-05-10 08:12:35.820 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_vs/browserLink - null null
+2025-05-10 08:12:35.820 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-10 08:12:35.827 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - 200 16529 application/javascript; charset=utf-8 6.9292ms
+2025-05-10 08:12:35.844 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.8852ms
+2025-05-10 08:12:35.860 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/favicon.ico - null null
+2025-05-10 08:12:35.874 +03:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI\wwwroot\favicon.ico'
+2025-05-10 08:12:35.875 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/favicon.ico - 200 5430 image/x-icon 15.1788ms
+2025-05-10 08:15:33.950 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-10 08:15:33.954 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - 200 16529 application/javascript; charset=utf-8 4.3734ms
+2025-05-10 08:22:44.012 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 08:22:44.022 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-10 08:22:44.024 +03:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-05-10 08:22:44.025 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 12.5839ms
+2025-05-10 08:22:44.095 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/signin-oidc - application/x-www-form-urlencoded 620
+2025-05-10 08:22:44.119 +03:30 [INF] AuthenticationScheme: Cookies signed in.
+2025-05-10 08:22:44.121 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/signin-oidc - 302 0 null 25.721ms
+2025-05-10 08:22:44.124 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 08:22:44.130 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 08:22:44.133 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 08:22:44.152 +03:30 [INF] Executing SignOutResult with authentication schemes (["OpenIdConnect","Cookies"]).
+2025-05-10 08:22:44.154 +03:30 [INF] AuthenticationScheme: OpenIdConnect signed out.
+2025-05-10 08:22:44.156 +03:30 [INF] AuthenticationScheme: Cookies signed out.
+2025-05-10 08:22:44.158 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI) in 18.061ms
+2025-05-10 08:22:44.160 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 08:22:44.161 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 37.7934ms
+2025-05-10 08:22:44.171 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/signout-callback-oidc?state=CfDJ8JQyvP6gemRMogPZtIpfOy2Q421tWKZCHKOAk9v1JSyZJlEqviEDWn4sqyPOb-bjfYz2YNPdoiPlEcFgaKwlZ155utEbtgyMAF5e5MJa6A31EHyPxEgnNJNs9mZMhdcGbwCktyDpPmJ4ffSxJ71d7RCZxAtoxCTE_tZjdJKaIFkb - null null
+2025-05-10 08:22:44.177 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/signout-callback-oidc?state=CfDJ8JQyvP6gemRMogPZtIpfOy2Q421tWKZCHKOAk9v1JSyZJlEqviEDWn4sqyPOb-bjfYz2YNPdoiPlEcFgaKwlZ155utEbtgyMAF5e5MJa6A31EHyPxEgnNJNs9mZMhdcGbwCktyDpPmJ4ffSxJ71d7RCZxAtoxCTE_tZjdJKaIFkb - 302 0 null 5.0382ms
+2025-05-10 08:22:44.179 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 08:22:44.186 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-10 08:22:44.188 +03:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-05-10 08:22:44.190 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 10.8765ms
+2025-05-10 08:22:52.278 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/signin-oidc - application/x-www-form-urlencoded 620
+2025-05-10 08:22:52.300 +03:30 [INF] AuthenticationScheme: Cookies signed in.
+2025-05-10 08:22:52.301 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/signin-oidc - 302 0 null 22.7031ms
+2025-05-10 08:22:52.304 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 08:22:52.309 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 08:22:52.310 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 08:22:52.318 +03:30 [INF] Executing SignOutResult with authentication schemes (["OpenIdConnect","Cookies"]).
+2025-05-10 08:22:52.320 +03:30 [INF] AuthenticationScheme: OpenIdConnect signed out.
+2025-05-10 08:22:52.321 +03:30 [INF] AuthenticationScheme: Cookies signed out.
+2025-05-10 08:22:52.323 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI) in 9.7483ms
+2025-05-10 08:22:52.324 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 08:22:52.325 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 21.2806ms
+2025-05-10 08:22:52.337 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/signout-callback-oidc?state=CfDJ8JQyvP6gemRMogPZtIpfOy2qB-uBp5gMN-syc-U-coFaLAnwLCRICrrXogZYJkMWaCH5k04B2KLbJJ2_9MFb1WMl2NXmo7hcmw62kjeTNKjXyMg7WMNmfZGsLn-3VumQ3RgpcPJvRTgr3hsuPbPqt0tosRql0i1rFZBeAvKuSz0h - null null
+2025-05-10 08:22:52.342 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/signout-callback-oidc?state=CfDJ8JQyvP6gemRMogPZtIpfOy2qB-uBp5gMN-syc-U-coFaLAnwLCRICrrXogZYJkMWaCH5k04B2KLbJJ2_9MFb1WMl2NXmo7hcmw62kjeTNKjXyMg7WMNmfZGsLn-3VumQ3RgpcPJvRTgr3hsuPbPqt0tosRql0i1rFZBeAvKuSz0h - 302 0 null 4.946ms
+2025-05-10 08:22:52.346 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 08:22:52.352 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-10 08:22:52.353 +03:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-05-10 08:22:52.355 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 8.8237ms
+2025-05-10 08:23:18.851 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/signin-oidc - application/x-www-form-urlencoded 620
+2025-05-10 08:23:18.871 +03:30 [INF] AuthenticationScheme: Cookies signed in.
+2025-05-10 08:23:18.873 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/signin-oidc - 302 0 null 21.686ms
+2025-05-10 08:23:18.875 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 08:23:18.881 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 08:23:18.883 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 08:23:18.890 +03:30 [INF] Executing SignOutResult with authentication schemes (["OpenIdConnect","Cookies"]).
+2025-05-10 08:23:18.892 +03:30 [INF] AuthenticationScheme: OpenIdConnect signed out.
+2025-05-10 08:23:18.893 +03:30 [INF] AuthenticationScheme: Cookies signed out.
+2025-05-10 08:23:18.894 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI) in 8.841ms
+2025-05-10 08:23:18.895 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 08:23:18.896 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 20.8229ms
+2025-05-10 08:23:18.904 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/signout-callback-oidc?state=CfDJ8JQyvP6gemRMogPZtIpfOy1toAYBxiiW-YCL0DOQerLlK6LM58DYHZq1smgs2-AUKEGb5tUhmlO_BSFfPMEXrgV3CC03E1iR1Ibgz4_d71F2TMM7HUJvAuOPPNrSj32-HFqYfC6pOJOit0Qj40ozQzK0BQsgxqWn4F8wkLTO5QMH - null null
+2025-05-10 08:23:18.907 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/signout-callback-oidc?state=CfDJ8JQyvP6gemRMogPZtIpfOy1toAYBxiiW-YCL0DOQerLlK6LM58DYHZq1smgs2-AUKEGb5tUhmlO_BSFfPMEXrgV3CC03E1iR1Ibgz4_d71F2TMM7HUJvAuOPPNrSj32-HFqYfC6pOJOit0Qj40ozQzK0BQsgxqWn4F8wkLTO5QMH - 302 0 null 3.1801ms
+2025-05-10 08:23:18.909 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 08:23:18.914 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-10 08:23:18.916 +03:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-05-10 08:23:18.917 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 7.8643ms
+2025-05-10 08:24:38.198 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/signin-oidc - application/x-www-form-urlencoded 620
+2025-05-10 08:24:38.224 +03:30 [INF] AuthenticationScheme: Cookies signed in.
+2025-05-10 08:24:38.225 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/signin-oidc - 302 0 null 27.2582ms
+2025-05-10 08:24:38.228 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 08:24:38.233 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 08:24:38.234 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 08:24:38.242 +03:30 [INF] Executing SignOutResult with authentication schemes (["OpenIdConnect","Cookies"]).
+2025-05-10 08:24:38.244 +03:30 [INF] AuthenticationScheme: OpenIdConnect signed out.
+2025-05-10 08:24:38.245 +03:30 [INF] AuthenticationScheme: Cookies signed out.
+2025-05-10 08:24:38.246 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI) in 9.9757ms
+2025-05-10 08:24:38.247 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 08:24:38.248 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 19.5275ms
+2025-05-10 08:24:38.256 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/signout-callback-oidc?state=CfDJ8JQyvP6gemRMogPZtIpfOy2LYmWotTORgGQykecj5wthwicsutB1aDSwwgWkMHAD11PyQm1MwSyK_r9ii6dV8DK952kRkhsbEeQZ_OvpXkO75D96-tz5SZ8yw3-rdOWOcCMOwpkjxNc5mnNetLzBfFalP2AwpY4EsJZD5gFD_BXH - null null
+2025-05-10 08:24:38.259 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/signout-callback-oidc?state=CfDJ8JQyvP6gemRMogPZtIpfOy2LYmWotTORgGQykecj5wthwicsutB1aDSwwgWkMHAD11PyQm1MwSyK_r9ii6dV8DK952kRkhsbEeQZ_OvpXkO75D96-tz5SZ8yw3-rdOWOcCMOwpkjxNc5mnNetLzBfFalP2AwpY4EsJZD5gFD_BXH - 302 0 null 3.3251ms
+2025-05-10 08:24:38.261 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 08:24:38.266 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-10 08:24:38.267 +03:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-05-10 08:24:38.268 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 7.6356ms
+2025-05-10 08:33:06.390 +03:30 [INF] User profile is available. Using 'C:\Users\ghand\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-10 08:33:06.519 +03:30 [INF] Now listening on: https://localhost:7023
+2025-05-10 08:33:06.521 +03:30 [INF] Now listening on: http://localhost:5212
+2025-05-10 08:33:06.556 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-10 08:33:06.557 +03:30 [INF] Hosting environment: Development
+2025-05-10 08:33:06.558 +03:30 [INF] Content root path: D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI
+2025-05-10 08:33:06.833 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 08:33:06.955 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-10 08:33:07.014 +03:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-05-10 08:33:07.021 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 187.9187ms
+2025-05-10 08:34:50.645 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/signin-oidc - application/x-www-form-urlencoded 620
+2025-05-10 08:34:50.744 +03:30 [INF] AuthenticationScheme: Cookies signed in.
+2025-05-10 08:34:50.746 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/signin-oidc - 302 0 null 102.1325ms
+2025-05-10 08:34:50.753 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 08:34:50.763 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 08:34:50.785 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 08:35:19.313 +03:30 [INF] Executing SignOutResult with authentication schemes (["OpenIdConnect","Cookies"]).
+2025-05-10 08:35:19.319 +03:30 [INF] AuthenticationScheme: OpenIdConnect signed out.
+2025-05-10 08:35:19.323 +03:30 [INF] AuthenticationScheme: Cookies signed out.
+2025-05-10 08:35:19.327 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI) in 28538.9541ms
+2025-05-10 08:35:19.337 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 08:35:19.338 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 28584.6746ms
+2025-05-10 08:35:19.354 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/signout-callback-oidc?state=CfDJ8JQyvP6gemRMogPZtIpfOy34cRovouVzUpKBOA3s3dqG-xcLzcenL45GDcmlkj80NCBPFw-69Z3mFUX5TO1Ytp0ynTDxyORKvYaUpz9skJ2x408eDVI-ZCS14oso3Mqvb_zBpOHl_Feq4FPbncMIDVjXB8KSZauS9FTcWbu1DuY1 - null null
+2025-05-10 08:35:19.360 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/signout-callback-oidc?state=CfDJ8JQyvP6gemRMogPZtIpfOy34cRovouVzUpKBOA3s3dqG-xcLzcenL45GDcmlkj80NCBPFw-69Z3mFUX5TO1Ytp0ynTDxyORKvYaUpz9skJ2x408eDVI-ZCS14oso3Mqvb_zBpOHl_Feq4FPbncMIDVjXB8KSZauS9FTcWbu1DuY1 - 302 0 null 6.4545ms
+2025-05-10 08:35:19.363 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 08:35:19.367 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-10 08:35:19.370 +03:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-05-10 08:35:19.371 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 8.2705ms
+2025-05-10 08:35:33.648 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/signin-oidc - application/x-www-form-urlencoded 620
+2025-05-10 08:35:33.675 +03:30 [INF] AuthenticationScheme: Cookies signed in.
+2025-05-10 08:35:33.677 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/signin-oidc - 302 0 null 28.8574ms
+2025-05-10 08:35:33.681 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 08:35:33.687 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 08:35:33.689 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 09:28:30.796 +03:30 [INF] Executed DbCommand (117ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE "AnimalIdentifierDB";
+2025-05-10 09:28:30.946 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-05-10 09:28:31.000 +03:30 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-05-10 09:28:31.002 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-05-10 09:28:31.011 +03:30 [INF] Applying migration '20250510055819_InitialCreate'.
+2025-05-10 09:28:31.025 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE SEQUENCE animalseq AS integer START WITH 1 INCREMENT BY 1 NO MINVALUE NO MAXVALUE NO CYCLE;
+2025-05-10 09:28:31.026 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE animals (
+    "Id" integer NOT NULL,
+    "Name" character varying(200) NOT NULL,
+    CONSTRAINT "PK_animals" PRIMARY KEY ("Id")
+);
+2025-05-10 09:28:31.027 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "IX_animals_Name" ON animals ("Name");
+2025-05-10 09:28:31.028 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20250510055819_InitialCreate', '8.0.15');
+2025-05-10 09:29:02.727 +03:30 [INF] User profile is available. Using 'C:\Users\ghand\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-10 09:29:03.227 +03:30 [INF] Now listening on: https://localhost:7023
+2025-05-10 09:29:03.229 +03:30 [INF] Now listening on: http://localhost:5212
+2025-05-10 09:29:03.256 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-10 09:29:03.257 +03:30 [INF] Hosting environment: Development
+2025-05-10 09:29:03.258 +03:30 [INF] Content root path: D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI
+2025-05-10 09:29:05.192 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 09:29:05.812 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 09:29:05.837 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 09:29:10.056 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI) in 4206.194ms
+2025-05-10 09:29:10.068 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 09:29:10.075 +03:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7287)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at AnimalIdentifier.WebUI.Controllers.HomeController.Index() in D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI\Controllers\HomeController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-10 09:29:10.144 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 500 null text/html; charset=utf-8 4952.9718ms
+2025-05-10 09:29:10.156 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_vs/browserLink - null null
+2025-05-10 09:29:10.156 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-10 09:29:10.165 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - 200 16529 application/javascript; charset=utf-8 8.9581ms
+2025-05-10 09:29:10.188 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.4684ms
+2025-05-10 09:30:17.051 +03:30 [INF] User profile is available. Using 'C:\Users\ghand\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-10 09:30:17.146 +03:30 [INF] Now listening on: https://localhost:7023
+2025-05-10 09:30:17.147 +03:30 [INF] Now listening on: http://localhost:5212
+2025-05-10 09:30:17.183 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-10 09:30:17.184 +03:30 [INF] Hosting environment: Development
+2025-05-10 09:30:17.185 +03:30 [INF] Content root path: D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI
+2025-05-10 09:30:17.201 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 09:30:17.270 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 09:30:17.286 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 09:30:23.605 +03:30 [INF] Executing SignOutResult with authentication schemes (["OpenIdConnect","Cookies"]).
+2025-05-10 09:30:27.744 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI) in 10455.2804ms
+2025-05-10 09:30:27.748 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 09:30:27.750 +03:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'http://localhost:8080/realms/AnimalRealm/.well-known/openid-configuration'. Will retry at '5/10/2025 6:00:27 AM +00:00'. Exception: 'System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:8080)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.SendAsyncAndRetryOnNetworkError(HttpClient httpClient, Uri uri)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:8080)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.SendAsyncAndRetryOnNetworkError(HttpClient httpClient, Uri uri)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.SignOutAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.SignOutAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Mvc.SignOutResult.ExecuteAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|28_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-10 09:30:27.785 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 500 null text/html; charset=utf-8 10585.3519ms
+2025-05-10 09:30:27.793 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_vs/browserLink - null null
+2025-05-10 09:30:27.793 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-10 09:30:27.803 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - 200 16529 application/javascript; charset=utf-8 10.0859ms
+2025-05-10 09:30:27.814 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.6762ms
+2025-05-10 09:31:27.289 +03:30 [INF] User profile is available. Using 'C:\Users\ghand\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-10 09:31:27.380 +03:30 [INF] Now listening on: https://localhost:7023
+2025-05-10 09:31:27.383 +03:30 [INF] Now listening on: http://localhost:5212
+2025-05-10 09:31:27.412 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-10 09:31:27.413 +03:30 [INF] Hosting environment: Development
+2025-05-10 09:31:27.413 +03:30 [INF] Content root path: D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI
+2025-05-10 09:31:27.867 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 09:31:28.450 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 09:31:28.474 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 09:31:29.310 +03:30 [INF] Executing SignOutResult with authentication schemes (["OpenIdConnect","Cookies"]).
+2025-05-10 09:31:29.381 +03:30 [INF] AuthenticationScheme: OpenIdConnect signed out.
+2025-05-10 09:31:29.384 +03:30 [INF] AuthenticationScheme: Cookies signed out.
+2025-05-10 09:31:29.387 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI) in 910.5381ms
+2025-05-10 09:31:29.390 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 09:31:29.392 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 1526.0007ms
+2025-05-10 09:31:29.418 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/signout-callback-oidc?state=CfDJ8JQyvP6gemRMogPZtIpfOy1r4YY5EKDjOR_HUGhEARPTNGdJSU010XOQBvCuF4S87tyNhEiDWuLCJ67zLGN9IgRGHPoadjDJT3XlMmqad9XkB30IJ4_Tus8Yt1X4Mqk2UQChyDTNFl7pH6kKc_9NS13-0ReKIKBehFK3p8n7A8pi - null null
+2025-05-10 09:31:29.430 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/signout-callback-oidc?state=CfDJ8JQyvP6gemRMogPZtIpfOy1r4YY5EKDjOR_HUGhEARPTNGdJSU010XOQBvCuF4S87tyNhEiDWuLCJ67zLGN9IgRGHPoadjDJT3XlMmqad9XkB30IJ4_Tus8Yt1X4Mqk2UQChyDTNFl7pH6kKc_9NS13-0ReKIKBehFK3p8n7A8pi - 302 0 null 12.1818ms
+2025-05-10 09:31:29.433 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 09:31:29.441 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-10 09:31:29.446 +03:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-05-10 09:31:29.448 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 15.0215ms
+2025-05-10 09:31:34.612 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/signin-oidc - application/x-www-form-urlencoded 620
+2025-05-10 09:31:34.753 +03:30 [INF] AuthenticationScheme: Cookies signed in.
+2025-05-10 09:31:34.755 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/signin-oidc - 302 0 null 142.3762ms
+2025-05-10 09:31:34.759 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 09:31:34.765 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 09:31:34.767 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 09:31:36.254 +03:30 [INF] Executing ViewResult, running view Index.
+2025-05-10 09:31:36.392 +03:30 [INF] Executed ViewResult - view Index executed in 142.1395ms.
+2025-05-10 09:31:36.397 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI) in 1628.2001ms
+2025-05-10 09:31:36.398 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-05-10 09:31:36.403 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 09:31:36.404 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-05-10 09:31:36.406 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/lib/jquery/dist/jquery.min.js - null null
+2025-05-10 09:31:36.406 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/AnimalIdentifier.WebUI.styles.css?v=HobThfNjAoyrNYU0dYHyu4WfvzD0ayVzXEfBL3syWK8 - null null
+2025-05-10 09:31:36.407 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/Sweetalert2/sweetalert2.min.css - null null
+2025-05-10 09:31:36.408 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-05-10 09:31:36.409 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-05-10 09:31:36.409 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/Sweetalert2/sweetalert2.min.js - null null
+2025-05-10 09:31:36.409 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-10 09:31:36.414 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 200 null text/html; charset=utf-8 1654.7301ms
+2025-05-10 09:31:36.421 +03:30 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI\wwwroot\css\site.css'
+2025-05-10 09:31:36.428 +03:30 [INF] Sending file. Request path: '/AnimalIdentifier.WebUI.styles.css'. Physical path: 'D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI\obj\Debug\net8.0\scopedcss\bundle\AnimalIdentifier.WebUI.styles.css'
+2025-05-10 09:31:36.429 +03:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-05-10 09:31:36.436 +03:30 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI\wwwroot\js\site.js'
+2025-05-10 09:31:36.437 +03:30 [INF] Sending file. Request path: '/Sweetalert2/sweetalert2.min.css'. Physical path: 'D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI\wwwroot\Sweetalert2\sweetalert2.min.css'
+2025-05-10 09:31:36.446 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - 200 16529 application/javascript; charset=utf-8 36.2731ms
+2025-05-10 09:31:36.450 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 45.8917ms
+2025-05-10 09:31:36.454 +03:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-05-10 09:31:36.473 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78474 text/javascript 65.4502ms
+2025-05-10 09:31:36.456 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/lib/bootstrap/dist/css/bootstrap.min.css - 200 162726 text/css 57.6681ms
+2025-05-10 09:31:36.459 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 50.0097ms
+2025-05-10 09:31:36.460 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/Sweetalert2/sweetalert2.min.css - 200 29195 text/css 53.7532ms
+2025-05-10 09:31:36.454 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/AnimalIdentifier.WebUI.styles.css?v=HobThfNjAoyrNYU0dYHyu4WfvzD0ayVzXEfBL3syWK8 - 200 1140 text/css 48.0923ms
+2025-05-10 09:31:36.477 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_vs/browserLink - null null
+2025-05-10 09:31:36.478 +03:30 [INF] Sending file. Request path: '/Sweetalert2/sweetalert2.min.js'. Physical path: 'D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI\wwwroot\Sweetalert2\sweetalert2.min.js'
+2025-05-10 09:31:36.481 +03:30 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-05-10 09:31:36.506 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/lib/jquery/dist/jquery.min.js - 200 89503 text/javascript 100.0636ms
+2025-05-10 09:31:36.504 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/Sweetalert2/sweetalert2.min.js - 200 39981 text/javascript 95.3162ms
+2025-05-10 09:31:36.525 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.5891ms
+2025-05-10 09:31:49.293 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/Home/Create - application/json 19
+2025-05-10 09:31:49.303 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Create (AnimalIdentifier.WebUI)'
+2025-05-10 09:31:49.314 +03:30 [INF] Route matched with {action = "Create", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(AnimalIdentifier.Application.Animals.ViewModels.CreateAnimalDto) on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 09:31:49.595 +03:30 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-10 09:31:49.606 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.Create (AnimalIdentifier.WebUI) in 289.1813ms
+2025-05-10 09:31:49.608 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Create (AnimalIdentifier.WebUI)'
+2025-05-10 09:31:49.610 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/Home/Create - 200 null application/json; charset=utf-8 316.8187ms
+2025-05-10 09:31:50.472 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 09:31:50.480 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 09:31:50.482 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 09:31:50.579 +03:30 [INF] Executing ViewResult, running view Index.
+2025-05-10 09:31:50.588 +03:30 [INF] Executed ViewResult - view Index executed in 9.4894ms.
+2025-05-10 09:31:50.592 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI) in 105.7988ms
+2025-05-10 09:31:50.596 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 09:31:50.600 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 200 null text/html; charset=utf-8 128.1077ms
+2025-05-10 09:31:50.601 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/AnimalIdentifier.WebUI.styles.css?v=HobThfNjAoyrNYU0dYHyu4WfvzD0ayVzXEfBL3syWK8 - null null
+2025-05-10 09:31:50.601 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-10 09:31:50.601 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_vs/browserLink - null null
+2025-05-10 09:31:50.609 +03:30 [INF] The file /AnimalIdentifier.WebUI.styles.css was not modified
+2025-05-10 09:31:50.619 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/AnimalIdentifier.WebUI.styles.css?v=HobThfNjAoyrNYU0dYHyu4WfvzD0ayVzXEfBL3syWK8 - 304 null text/css 17.5732ms
+2025-05-10 09:31:50.613 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - 200 16529 application/javascript; charset=utf-8 11.8344ms
+2025-05-10 09:31:50.627 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.4868ms
+2025-05-10 09:31:59.028 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/Home/Create - application/json 17
+2025-05-10 09:31:59.036 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Create (AnimalIdentifier.WebUI)'
+2025-05-10 09:31:59.039 +03:30 [INF] Route matched with {action = "Create", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(AnimalIdentifier.Application.Animals.ViewModels.CreateAnimalDto) on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 09:31:59.066 +03:30 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-10 09:31:59.067 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.Create (AnimalIdentifier.WebUI) in 24.9167ms
+2025-05-10 09:31:59.071 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Create (AnimalIdentifier.WebUI)'
+2025-05-10 09:31:59.073 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/Home/Create - 200 null application/json; charset=utf-8 44.8823ms
+2025-05-10 09:32:00.126 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 09:32:00.137 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 09:32:00.140 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 09:32:00.158 +03:30 [INF] Executing ViewResult, running view Index.
+2025-05-10 09:32:00.162 +03:30 [INF] Executed ViewResult - view Index executed in 4.7654ms.
+2025-05-10 09:32:00.165 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI) in 22.7816ms
+2025-05-10 09:32:00.172 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 09:32:00.174 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 200 null text/html; charset=utf-8 47.1188ms
+2025-05-10 09:32:00.177 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/AnimalIdentifier.WebUI.styles.css?v=HobThfNjAoyrNYU0dYHyu4WfvzD0ayVzXEfBL3syWK8 - null null
+2025-05-10 09:32:00.178 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-10 09:32:00.178 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_vs/browserLink - null null
+2025-05-10 09:32:00.183 +03:30 [INF] The file /AnimalIdentifier.WebUI.styles.css was not modified
+2025-05-10 09:32:00.187 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - 200 16529 application/javascript; charset=utf-8 9.8386ms
+2025-05-10 09:32:00.194 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/AnimalIdentifier.WebUI.styles.css?v=HobThfNjAoyrNYU0dYHyu4WfvzD0ayVzXEfBL3syWK8 - 304 null text/css 16.527ms
+2025-05-10 09:32:00.195 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.012ms
+2025-05-10 09:46:39.929 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/Home/GetById - application/json 10
+2025-05-10 09:46:39.934 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.GetById (AnimalIdentifier.WebUI)'
+2025-05-10 09:46:39.941 +03:30 [INF] Route matched with {action = "GetById", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(AnimalIdentifier.Application.Animals.ViewModels.DisplayAnimalDto) on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 09:46:39.961 +03:30 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-10 09:46:39.963 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.GetById (AnimalIdentifier.WebUI) in 20.3865ms
+2025-05-10 09:46:39.965 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.GetById (AnimalIdentifier.WebUI)'
+2025-05-10 09:46:39.966 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/Home/GetById - 200 null application/json; charset=utf-8 37.1222ms
+2025-05-10 09:46:43.658 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/Home/GetById - application/json 10
+2025-05-10 09:46:43.663 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.GetById (AnimalIdentifier.WebUI)'
+2025-05-10 09:46:43.664 +03:30 [INF] Route matched with {action = "GetById", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(AnimalIdentifier.Application.Animals.ViewModels.DisplayAnimalDto) on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 09:46:43.679 +03:30 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-10 09:46:43.682 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.GetById (AnimalIdentifier.WebUI) in 15.7158ms
+2025-05-10 09:46:43.684 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.GetById (AnimalIdentifier.WebUI)'
+2025-05-10 09:46:43.686 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/Home/GetById - 200 null application/json; charset=utf-8 28.048ms
+2025-05-10 09:47:13.243 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/Home/GetById - application/json 10
+2025-05-10 09:47:13.249 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.GetById (AnimalIdentifier.WebUI)'
+2025-05-10 09:47:13.251 +03:30 [INF] Route matched with {action = "GetById", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(AnimalIdentifier.Application.Animals.ViewModels.DisplayAnimalDto) on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 09:47:13.268 +03:30 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-10 09:47:13.270 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.GetById (AnimalIdentifier.WebUI) in 16.3086ms
+2025-05-10 09:47:13.272 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.GetById (AnimalIdentifier.WebUI)'
+2025-05-10 09:47:13.273 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/Home/GetById - 200 null application/json; charset=utf-8 29.958ms
+2025-05-10 09:47:19.186 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/Home/Edit - application/json 29
+2025-05-10 09:47:19.192 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Edit (AnimalIdentifier.WebUI)'
+2025-05-10 09:47:19.198 +03:30 [INF] Route matched with {action = "Edit", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(AnimalIdentifier.Application.Animals.ViewModels.AnimalDto) on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 09:47:19.214 +03:30 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-10 09:47:19.215 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.Edit (AnimalIdentifier.WebUI) in 14.4176ms
+2025-05-10 09:47:19.217 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Edit (AnimalIdentifier.WebUI)'
+2025-05-10 09:47:19.219 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/Home/Edit - 200 null application/json; charset=utf-8 32.6799ms
+2025-05-10 09:47:28.530 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/Home/Create - application/json 21
+2025-05-10 09:47:28.535 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Create (AnimalIdentifier.WebUI)'
+2025-05-10 09:47:28.537 +03:30 [INF] Route matched with {action = "Create", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(AnimalIdentifier.Application.Animals.ViewModels.CreateAnimalDto) on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 09:47:28.552 +03:30 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-10 09:47:28.554 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.Create (AnimalIdentifier.WebUI) in 14.4511ms
+2025-05-10 09:47:28.556 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Create (AnimalIdentifier.WebUI)'
+2025-05-10 09:47:28.557 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/Home/Create - 200 null application/json; charset=utf-8 26.9583ms
+2025-05-10 09:47:30.772 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 09:47:30.779 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 09:47:30.781 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 09:47:30.792 +03:30 [INF] Executing SignOutResult with authentication schemes (["OpenIdConnect","Cookies"]).
+2025-05-10 09:47:30.795 +03:30 [INF] AuthenticationScheme: OpenIdConnect signed out.
+2025-05-10 09:47:30.797 +03:30 [INF] AuthenticationScheme: Cookies signed out.
+2025-05-10 09:47:30.798 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI) in 15.7058ms
+2025-05-10 09:47:30.799 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 09:47:30.800 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 27.5423ms
+2025-05-10 09:47:30.825 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/signout-callback-oidc?state=CfDJ8JQyvP6gemRMogPZtIpfOy0e0Uea2CrNQiJsvz8SUm3_Jfiivlvuio-ZH0-Z5vkGoFrCk3vhUyHK9pZ40M3XUA5HnUpPYJLzv9d3h19R9StHAN7klzMrEISKK6fZN9eqEUqM9VfXt0PTaWQ4sIixELjDMELPZgc6JzKN8-b5tioL - null null
+2025-05-10 09:47:30.829 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/signout-callback-oidc?state=CfDJ8JQyvP6gemRMogPZtIpfOy0e0Uea2CrNQiJsvz8SUm3_Jfiivlvuio-ZH0-Z5vkGoFrCk3vhUyHK9pZ40M3XUA5HnUpPYJLzv9d3h19R9StHAN7klzMrEISKK6fZN9eqEUqM9VfXt0PTaWQ4sIixELjDMELPZgc6JzKN8-b5tioL - 302 0 null 4.5989ms
+2025-05-10 09:47:30.832 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 09:47:30.836 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-10 09:47:30.837 +03:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-05-10 09:47:30.838 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 6.0998ms
+2025-05-10 09:47:35.309 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/signin-oidc - application/x-www-form-urlencoded 620
+2025-05-10 09:47:35.340 +03:30 [INF] AuthenticationScheme: Cookies signed in.
+2025-05-10 09:47:35.341 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/signin-oidc - 302 0 null 32.2281ms
+2025-05-10 09:47:35.344 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 09:47:35.350 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 09:47:35.351 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 09:47:35.363 +03:30 [INF] Executing ViewResult, running view Index.
+2025-05-10 09:47:35.366 +03:30 [INF] Executed ViewResult - view Index executed in 3.1211ms.
+2025-05-10 09:47:35.367 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI) in 14.8113ms
+2025-05-10 09:47:35.369 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 09:47:35.371 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 200 null text/html; charset=utf-8 26.6878ms
+2025-05-10 09:47:35.384 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/AnimalIdentifier.WebUI.styles.css?v=HobThfNjAoyrNYU0dYHyu4WfvzD0ayVzXEfBL3syWK8 - null null
+2025-05-10 09:47:35.385 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-10 09:47:35.386 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_vs/browserLink - null null
+2025-05-10 09:47:35.389 +03:30 [INF] The file /AnimalIdentifier.WebUI.styles.css was not modified
+2025-05-10 09:47:35.392 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - 200 16529 application/javascript; charset=utf-8 6.9208ms
+2025-05-10 09:47:35.396 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/AnimalIdentifier.WebUI.styles.css?v=HobThfNjAoyrNYU0dYHyu4WfvzD0ayVzXEfBL3syWK8 - 304 null text/css 11.7458ms
+2025-05-10 09:47:35.398 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.7675ms
+2025-05-10 09:47:38.668 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7023/Home/GetById - application/json 10
+2025-05-10 09:47:38.674 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.GetById (AnimalIdentifier.WebUI)'
+2025-05-10 09:47:38.677 +03:30 [INF] Route matched with {action = "GetById", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(AnimalIdentifier.Application.Animals.ViewModels.DisplayAnimalDto) on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 09:47:38.802 +03:30 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-10 09:47:38.805 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.GetById (AnimalIdentifier.WebUI) in 125.272ms
+2025-05-10 09:47:38.806 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.GetById (AnimalIdentifier.WebUI)'
+2025-05-10 09:47:38.807 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7023/Home/GetById - 200 null application/json; charset=utf-8 139.553ms
+2025-05-10 09:47:40.831 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 09:47:40.838 +03:30 [INF] Executing endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 09:47:40.839 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller AnimalIdentifier.WebUI.Controllers.HomeController (AnimalIdentifier.WebUI).
+2025-05-10 09:47:40.855 +03:30 [INF] Executing ViewResult, running view Index.
+2025-05-10 09:47:40.857 +03:30 [INF] Executed ViewResult - view Index executed in 2.3193ms.
+2025-05-10 09:47:40.859 +03:30 [INF] Executed action AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI) in 17.0348ms
+2025-05-10 09:47:40.861 +03:30 [INF] Executed endpoint 'AnimalIdentifier.WebUI.Controllers.HomeController.Index (AnimalIdentifier.WebUI)'
+2025-05-10 09:47:40.863 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 200 null text/html; charset=utf-8 31.7743ms
+2025-05-10 09:47:40.870 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_vs/browserLink - null null
+2025-05-10 09:47:40.870 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-10 09:47:40.876 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_framework/aspnetcore-browser-refresh.js - 200 16529 application/javascript; charset=utf-8 6.3667ms
+2025-05-10 09:47:40.876 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/_vs/browserLink - 200 null text/javascript; charset=UTF-8 6.7668ms
+2025-05-10 10:48:23.018 +03:30 [INF] User profile is available. Using 'C:\Users\ghand\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-10 10:48:23.138 +03:30 [INF] Now listening on: https://localhost:7023
+2025-05-10 10:48:23.159 +03:30 [INF] Now listening on: http://localhost:5212
+2025-05-10 10:48:23.213 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-10 10:48:23.215 +03:30 [INF] Hosting environment: Development
+2025-05-10 10:48:23.216 +03:30 [INF] Content root path: D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI
+2025-05-10 11:06:23.326 +03:30 [INF] User profile is available. Using 'C:\Users\ghand\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-10 11:06:23.427 +03:30 [INF] Now listening on: https://localhost:7023
+2025-05-10 11:06:23.440 +03:30 [INF] Now listening on: http://localhost:5212
+2025-05-10 11:06:23.471 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-10 11:06:23.472 +03:30 [INF] Hosting environment: Development
+2025-05-10 11:06:23.473 +03:30 [INF] Content root path: D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI
+2025-05-10 11:19:07.990 +03:30 [INF] User profile is available. Using 'C:\Users\ghand\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-10 11:19:08.098 +03:30 [INF] Now listening on: https://localhost:7023
+2025-05-10 11:19:08.099 +03:30 [INF] Now listening on: http://localhost:5212
+2025-05-10 11:19:08.133 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-10 11:19:08.134 +03:30 [INF] Hosting environment: Development
+2025-05-10 11:19:08.134 +03:30 [INF] Content root path: D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI
+2025-05-10 12:46:28.844 +03:30 [INF] User profile is available. Using 'C:\Users\ghand\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-10 12:46:28.966 +03:30 [INF] Now listening on: https://localhost:7023
+2025-05-10 12:46:28.967 +03:30 [INF] Now listening on: http://localhost:5212
+2025-05-10 12:46:29.000 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-10 12:46:29.001 +03:30 [INF] Hosting environment: Development
+2025-05-10 12:46:29.002 +03:30 [INF] Content root path: D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI
+2025-05-10 12:46:29.889 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 12:46:30.493 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-10 12:46:30.576 +03:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-05-10 12:46:30.580 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 692.4697ms
+2025-05-10 12:46:45.666 +03:30 [INF] User profile is available. Using 'C:\Users\ghand\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-10 12:46:45.805 +03:30 [INF] Now listening on: https://localhost:7023
+2025-05-10 12:46:45.807 +03:30 [INF] Now listening on: http://localhost:5212
+2025-05-10 12:46:45.845 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-10 12:46:45.846 +03:30 [INF] Hosting environment: Development
+2025-05-10 12:46:45.847 +03:30 [INF] Content root path: D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.WebUI
+2025-05-10 12:46:46.801 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7023/ - null null
+2025-05-10 12:46:46.893 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-10 12:46:46.954 +03:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-05-10 12:46:46.958 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7023/ - 302 0 null 157.8689ms

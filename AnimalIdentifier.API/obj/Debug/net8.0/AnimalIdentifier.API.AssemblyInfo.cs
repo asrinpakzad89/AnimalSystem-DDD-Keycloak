@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AnimalIdentifier.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1627264d5fb8f67af8553b56e16fdc1a9ce6c7be")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b72160875170c27c8ae948471e3fd496c8f4f1d4")]
 [assembly: System.Reflection.AssemblyProductAttribute("AnimalIdentifier.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AnimalIdentifier.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

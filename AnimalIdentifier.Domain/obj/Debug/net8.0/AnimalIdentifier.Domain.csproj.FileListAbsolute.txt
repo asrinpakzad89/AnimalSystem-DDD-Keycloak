@@ -35,3 +35,16 @@ C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalId
 C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\refint\AnimalIdentifier.Domain.dll
 C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.pdb
 C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Domain\obj\Debug\net8.0\ref\AnimalIdentifier.Domain.dll
+D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Domain\bin\Debug\net8.0\AnimalIdentifier.Domain.deps.json
+D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Domain\bin\Debug\net8.0\AnimalIdentifier.Domain.dll
+D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Domain\bin\Debug\net8.0\AnimalIdentifier.Domain.pdb
+D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.csproj.AssemblyReference.cache
+D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.AssemblyInfoInputs.cache
+D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.AssemblyInfo.cs
+D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.csproj.CoreCompileInputs.cache
+D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.sourcelink.json
+D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.dll
+D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Domain\obj\Debug\net8.0\refint\AnimalIdentifier.Domain.dll
+D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Domain\obj\Debug\net8.0\AnimalIdentifier.Domain.pdb
+D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Domain\obj\Debug\net8.0\ref\AnimalIdentifier.Domain.dll

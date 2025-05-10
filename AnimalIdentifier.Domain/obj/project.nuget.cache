@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Hc3zRVDmYrk=",
+  "dgSpecHash": "Sy77hrM8yoY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Domain\\AnimalIdentifier.Domain.csproj",
+  "projectFilePath": "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.Domain\\AnimalIdentifier.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Zagros\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
-    "C:\\Users\\Zagros\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+    "C:\\Users\\ghand\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\ghand\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
   ],
   "logs": []
 }

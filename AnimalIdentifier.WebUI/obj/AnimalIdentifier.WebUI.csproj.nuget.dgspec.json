@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.WebUI\\AnimalIdentifier.WebUI.csproj": {}
+    "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.WebUI\\AnimalIdentifier.WebUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Application\\AnimalIdentifier.Application.csproj": {
+    "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.Application\\AnimalIdentifier.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Application\\AnimalIdentifier.Application.csproj",
+        "projectUniqueName": "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.Application\\AnimalIdentifier.Application.csproj",
         "projectName": "AnimalIdentifier.Application",
-        "projectPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Application\\AnimalIdentifier.Application.csproj",
-        "packagesPath": "C:\\Users\\Zagros\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Application\\obj\\",
+        "projectPath": "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.Application\\AnimalIdentifier.Application.csproj",
+        "packagesPath": "C:\\Users\\ghand\\.nuget\\packages\\",
+        "outputPath": "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Zagros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ghand\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Domain\\AnimalIdentifier.Domain.csproj": {
-                "projectPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Domain\\AnimalIdentifier.Domain.csproj"
+              "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.Domain\\AnimalIdentifier.Domain.csproj": {
+                "projectPath": "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.Domain\\AnimalIdentifier.Domain.csproj"
               }
             }
           }
@@ -92,24 +92,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Domain\\AnimalIdentifier.Domain.csproj": {
+    "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.Domain\\AnimalIdentifier.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Domain\\AnimalIdentifier.Domain.csproj",
+        "projectUniqueName": "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.Domain\\AnimalIdentifier.Domain.csproj",
         "projectName": "AnimalIdentifier.Domain",
-        "projectPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Domain\\AnimalIdentifier.Domain.csproj",
-        "packagesPath": "C:\\Users\\Zagros\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Domain\\obj\\",
+        "projectPath": "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.Domain\\AnimalIdentifier.Domain.csproj",
+        "packagesPath": "C:\\Users\\ghand\\.nuget\\packages\\",
+        "outputPath": "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Zagros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ghand\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -164,24 +164,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Infrastructure\\AnimalIdentifier.Infrastructure.csproj": {
+    "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.Infrastructure\\AnimalIdentifier.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Infrastructure\\AnimalIdentifier.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.Infrastructure\\AnimalIdentifier.Infrastructure.csproj",
         "projectName": "AnimalIdentifier.Infrastructure",
-        "projectPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Infrastructure\\AnimalIdentifier.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Zagros\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Infrastructure\\obj\\",
+        "projectPath": "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.Infrastructure\\AnimalIdentifier.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ghand\\.nuget\\packages\\",
+        "outputPath": "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Zagros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ghand\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -197,8 +197,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Domain\\AnimalIdentifier.Domain.csproj": {
-                "projectPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Domain\\AnimalIdentifier.Domain.csproj"
+              "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.Domain\\AnimalIdentifier.Domain.csproj": {
+                "projectPath": "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.Domain\\AnimalIdentifier.Domain.csproj"
               }
             }
           }
@@ -219,6 +219,22 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[8.0.11, )"
@@ -240,24 +256,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.WebUI\\AnimalIdentifier.WebUI.csproj": {
+    "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.WebUI\\AnimalIdentifier.WebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.WebUI\\AnimalIdentifier.WebUI.csproj",
+        "projectUniqueName": "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.WebUI\\AnimalIdentifier.WebUI.csproj",
         "projectName": "AnimalIdentifier.WebUI",
-        "projectPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.WebUI\\AnimalIdentifier.WebUI.csproj",
-        "packagesPath": "C:\\Users\\Zagros\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.WebUI\\obj\\",
+        "projectPath": "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.WebUI\\AnimalIdentifier.WebUI.csproj",
+        "packagesPath": "C:\\Users\\ghand\\.nuget\\packages\\",
+        "outputPath": "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.WebUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Zagros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ghand\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -273,11 +289,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Application\\AnimalIdentifier.Application.csproj": {
-                "projectPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Application\\AnimalIdentifier.Application.csproj"
+              "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.Application\\AnimalIdentifier.Application.csproj": {
+                "projectPath": "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.Application\\AnimalIdentifier.Application.csproj"
               },
-              "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Infrastructure\\AnimalIdentifier.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Zagros\\Desktop\\Final Project\\AnimalIdentifier\\AnimalIdentifier\\AnimalIdentifier.Infrastructure\\AnimalIdentifier.Infrastructure.csproj"
+              "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.Infrastructure\\AnimalIdentifier.Infrastructure.csproj": {
+                "projectPath": "D:\\Asrin Pakzad\\AnimalSystem-DDD-Keycloak\\AnimalIdentifier.Infrastructure\\AnimalIdentifier.Infrastructure.csproj"
               }
             }
           }
@@ -356,7 +372,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

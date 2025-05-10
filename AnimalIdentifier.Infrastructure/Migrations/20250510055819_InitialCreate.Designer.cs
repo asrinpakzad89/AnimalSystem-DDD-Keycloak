@@ -11,7 +11,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace AnimalIdentifier.Infrastructure.Migrations
 {
     [DbContext(typeof(AnimalDbContext))]
-    [Migration("20250501103355_InitialCreate")]
+    [Migration("20250510055819_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

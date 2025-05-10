@@ -1645,6 +1645,7 @@
       "AnimalIdentifier.Infrastructure/1.0.0": {
         "dependencies": {
           "AnimalIdentifier.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.15",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11"
         },
         "runtime": {

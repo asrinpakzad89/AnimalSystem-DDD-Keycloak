@@ -49,6 +49,8 @@ public class AnimalsController : ControllerBase
     public async Task<ActionResult<AnimalDto>> GetById(GetAnimalByIdQuery query, CancellationToken cancellationToken)
     {
         var result = await _mediator.Send(query, cancellationToken);
+        if (result == null)
+            return NotFound();
         return Ok(result);
     }
 

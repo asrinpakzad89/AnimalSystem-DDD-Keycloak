@@ -7,12 +7,10 @@ namespace AnimalIdentifier.Domain.Tests.Animals;
 
 public class AnimalTests
 {
+    #region 1
     [Fact]
     public void Constructor_Should_Set_Name_Correctly()
     {
-        //var animal = new AnimalBuilder().WithName("Tiger").Build();
-
-        //animal.Name.Should().Be("Tiger");
         string name = "Dog";
         Animal animal = new Animal(name);
         Assert.Equal(name, animal.Name);
@@ -37,7 +35,8 @@ public class AnimalTests
         Animal animal = new Animal("Cat");
         Assert.Throws<ArgumentNullException>(() => animal.UpdateName(null));
     }
-
+    #endregion
+    #region 2
     //[Theory]
     //[InlineData(null)]
     //[InlineData("")]
@@ -71,4 +70,5 @@ public class AnimalTests
     //    act.Should().Throw<ArgumentException>()
     //       .WithMessage("Animal name cannot be empty.*");
     //}
+    #endregion
 }

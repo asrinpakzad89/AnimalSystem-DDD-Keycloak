@@ -45,6 +45,7 @@ C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalId
 C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\AnimalIdentifier.Infrastructure.pdb
 C:\Users\Zagros\Desktop\Final Project\AnimalIdentifier\AnimalIdentifier\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\ref\AnimalIdentifier.Infrastructure.dll
 D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Infrastructure\bin\Debug\net8.0\AnimalIdentifier.Infrastructure.deps.json
+D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Infrastructure\bin\Debug\net8.0\AnimalIdentifier.Infrastructure.runtimeconfig.json
 D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Infrastructure\bin\Debug\net8.0\AnimalIdentifier.Infrastructure.dll
 D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Infrastructure\bin\Debug\net8.0\AnimalIdentifier.Infrastructure.pdb
 D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Infrastructure\bin\Debug\net8.0\AnimalIdentifier.Domain.dll
@@ -59,6 +60,5 @@ D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Infrastructure\obj\De
 D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\AnimalIdentifier.Infrastructure.dll
 D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\refint\AnimalIdentifier.Infrastructure.dll
 D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\AnimalIdentifier.Infrastructure.pdb
-D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\ref\AnimalIdentifier.Infrastructure.dll
-D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Infrastructure\bin\Debug\net8.0\AnimalIdentifier.Infrastructure.runtimeconfig.json
 D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\AnimalIdentifier.Infrastructure.genruntimeconfig.cache
+D:\Asrin Pakzad\AnimalSystem-DDD-Keycloak\AnimalIdentifier.Infrastructure\obj\Debug\net8.0\ref\AnimalIdentifier.Infrastructure.dll

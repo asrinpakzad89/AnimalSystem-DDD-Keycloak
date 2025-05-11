@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AnimalIdentifier.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3abb9f795bdc83cb7543e360db7cbe2a9b8b413f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1def16a7e0da5603940d199376a7ce9e4e7dd0b")]
 [assembly: System.Reflection.AssemblyProductAttribute("AnimalIdentifier.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AnimalIdentifier.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
